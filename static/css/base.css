@@ -4,8 +4,6 @@ html {
 
 body {
     background: url('/media/hero-img-one.jpg') no-repeat center center fixed;
-    background-position: right top;
-    /* background: url('/media/hero-img-two.jpg') no-repeat center center fixed; */
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -60,6 +58,16 @@ body {
 
 .bg-black {
     background-color: #000 !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #fff;
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */

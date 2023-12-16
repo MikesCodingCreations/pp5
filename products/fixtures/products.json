@@ -1,0 +1,4 @@
+[
+    {"pk": 1, "model": "products.product", "fields": {"sku": "pp0000000001", "name": "Mens PPP Simple Hoodie - Black", "description": "The Simple PPP Hoodie is perfect for a laidback look. It features a matte embroidered graphic, dropped shoulders, ribbed side pockets, and cotton drawcords. The soft fabric makes it perfect for everyday wear.", "price": 49.99, "category": 1, "rating": 4.9, "image_url": "https://static.thcdn.com/productimg/960/960/14262331-1465084392805433.jpg", "image": "mshb1.jpg"}} 
+
+]

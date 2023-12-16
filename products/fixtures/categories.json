@@ -1,0 +1,17 @@
+[
+    {"pk": 1, "model": "products.category", "fields": {"name": "mens_clothing", "friendly_name": "Mens Clothing"}}, 
+    {"pk": 2, "model": "products.category", "fields": {"name": "womens_clothing", "friendly_name": "Womens Clothing"}}, 
+    {"pk": 3, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "Accessories"}}, 
+
+    {"pk": 4, "model": "products.category", "fields": {"name": "bars", "friendly_name": "Bars"}}, 
+    {"pk": 5, "model": "products.category", "fields": {"name": "drinks", "friendly_name": "Drinks"}}, 
+    {"pk": 6, "model": "products.category", "fields": {"name": "snacks", "friendly_name": "Snacks"}}, 
+    
+    {"pk": 7, "model": "products.category", "fields": {"name": "whey_protein", "friendly_name": "Whey Protein"}}, 
+    {"pk": 8, "model": "products.category", "fields": {"name": "clear_protein", "friendly_name": "Clear Protein"}}, 
+    {"pk": 9, "model": "products.category", "fields": {"name": "vegan_protein", "friendly_name": "Vegan Protein"}}, 
+
+    {"pk": 12, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}},
+    {"pk": 11, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}}, 
+    {"pk": 10, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}
+]

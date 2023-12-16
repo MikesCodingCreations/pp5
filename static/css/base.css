@@ -4,6 +4,7 @@ html {
 
 body {
     background: url('/media/hero-img-one.jpg') no-repeat center center fixed;
+    background-position: right top;
     /* background: url('/media/hero-img-two.jpg') no-repeat center center fixed; */
     background-size: cover;
     height: calc(100vh - 164px);
@@ -55,6 +56,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
 }
 
 /* -------------------------------- Media Queries */

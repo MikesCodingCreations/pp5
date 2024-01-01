@@ -4,7 +4,6 @@ html {
 
 body {
     background: url('/media/hero-img-one.jpg') no-repeat center center fixed;
-    background-position: right bottom;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;

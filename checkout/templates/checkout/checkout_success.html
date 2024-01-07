@@ -19,9 +19,9 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Thank You!!</h2>
+                <h2 class="logo-font mb-4">Thank You!</h2>
                 <hr>
-                <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
+                <p class="text-black">Please find your order information below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
 
@@ -61,12 +61,12 @@
                     {% for item in order.lineitems.all %}
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <p class="mb-0 text-black font-weight-bold">
+                            <p class="small mb-0 text-black font-weight-bold">
                                 {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}
                             </p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="small-mb-0">{{ item.quantity }} @ $ {{ item.product.price }} each</p>
+                            <p class="small mb-0">{{ item.quantity }} @ ${{ item.product.price }} each</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -94,14 +94,14 @@
                             <p class="mb-0">{{ order.street_address1 }}</p>
                         </div>
                     </div>
-                    
+
                     {% if order.street_address2 %}
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Address 2</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.street_address2 }}</p>
+                            <p class="mb-0">{{ order.street_address1 }}</p>
                         </div>
                     </div>
                     {% endif %}
@@ -192,11 +192,11 @@
         </div>
         <div class="row">
 			<div class="col-12 col-lg-7 text-right">
-				<a href="{% url 'products' %}" class="btn btn-black rounded-0 my-2">
+				<a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2">
 					<span class="icon mr-2">
 						<i class="fas fa-gifts"></i>
 					</span>
-					<span class="text-uppercase">Now check out more products!</span>
+					<span class="text-uppercase">View more of our amazing products!</span>
 				</a>
 			</div>
 		</div>

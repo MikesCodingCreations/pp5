@@ -6,6 +6,7 @@ body {
     background: url('/media/hero-img-one.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
+    padding-top: 25px;
     color: #555;
     font-family: 'Lato';
 }
@@ -19,6 +20,15 @@ body {
     width: 1.5rem;
 }
 
+.logo-strong,
+.fa-search,
+.fa-user,
+.fa-shopping-bag,
+.shop-now-button,
+.text-purp {
+    color: rgb(70, 255, 92);
+}
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -29,7 +39,6 @@ body {
 
 .shop-now-button {
     background: black;
-    color: white;
     min-width: 260px;
 }
 

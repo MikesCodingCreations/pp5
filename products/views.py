@@ -70,20 +70,20 @@ def product_detail(request, product_id):
     return render(request, 'products/product_detail.html', context)
 
 
-def add_product(request):
+def add_a_product(request):
     """ Add product to the store """
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            product = form.save()
             messages.success(request, 'Successfully added product.')
-            return redirect(reverse('add_product'))
+            return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request, 'Failed to add product. Please ensure form is filled in correctly.')
     else:
         form = ProductForm()
         
-    template = 'products/add_product.html'
+    template = 'products/add_a_product.html'
     context = {
         'form': form,
     }
@@ -98,7 +98,7 @@ def edit_a_product(request, product_id):
         form = ProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Product successfully updated!')
+            messages.success(request, 'Product successfully updated.')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request, 'Failed to update product. Please review form.')
@@ -113,3 +113,11 @@ def edit_a_product(request, product_id):
     }
 
     return render(request, template, context)
+
+
+def delete_a_product(request, product_id):
+    """Delete a store product"""
+    product = get_object_or_404(Product, pk=product_id)
+    product.delete()
+    messages.success(request, 'Product has been Deleted.')
+    return redirect(reverse('products'))

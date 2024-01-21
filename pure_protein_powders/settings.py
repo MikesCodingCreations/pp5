@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-0)+@c1pq^%*5#6qv23pyt3z8#opzqw2w=ak=3cx(#ote9f7$()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mikescoding-ecommercepl-adg4t3982i3.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-mikescoding-ecommercepl-adg4t3982i3.ws-eu107.gitpod.io', 'localhost', 'mikescodingcreations-pureproteinpowderpp5.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com' ]
 
 
 # Application definition
@@ -118,12 +119,19 @@ WSGI_APPLICATION = 'pure_protein_powders.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+
+
 
 
 # Password validation

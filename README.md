@@ -12,6 +12,10 @@
 - JavaScript 
 - Python
 
+## Still to implement:
+- SEO
+- Web Marketing
+
 ## Credits
 I would like to acknowledge the following:
 

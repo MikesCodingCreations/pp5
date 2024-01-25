@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '9wd3t^$n*$p-pf!t33533+2o-=f1t@9umk29gqcmpjankb5e!5')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '8000-mikescoding-ecommercepl-adg4t3982i3.ws-eu107.gitpod.io']
 

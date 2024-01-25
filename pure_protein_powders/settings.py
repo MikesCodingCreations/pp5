@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '8000-mikescoding-ecommercepl-adg4t3982i3.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '.herokuapp.com']
 
 
 # Application definition

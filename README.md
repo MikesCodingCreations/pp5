@@ -1,5 +1,5 @@
 # Pure Protein Powders
-![image](main/)
+![image](https://github.com/MikesCodingCreations/ecommerce_platform_pure_protein_powders/blob/main/main-site.png)
 
 ## Protein Powder and Apparel E-commerce Store.
 > E-commerce website that provide a high quality protein products from whey/clear protein powder, protein snacka and drinks to gym clothing.
@@ -15,6 +15,7 @@
 ## Still to implement:
 - SEO
 - Web Marketing
+- More in-depth README
 
 ## Credits
 I would like to acknowledge the following:

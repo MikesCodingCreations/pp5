@@ -1,10 +1,10 @@
 # Pure Protein Powders
-![image](XXX)
+![image](main/)
 
 ## Protein Powder and Apparel E-commerce Store.
 > E-commerce website that provide a high quality protein products from whey/clear protein powder, protein snacka and drinks to gym clothing.
 
-## Click [here](XX) to live site.
+## Click [here](https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/) to live site.
 
 ### Languages
 - HTML

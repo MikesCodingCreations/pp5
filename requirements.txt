@@ -5,7 +5,7 @@ asgiref==3.7.2
 async-timeout==4.0.3
 auditlog3==1.0.1
 dj-database-url==2.1.0
-Django==3.2.23
+Django==4.2.11
 django-allauth==0.61.1
 django-countries==7.5.1
 django-countries-with-calling-codes==0.1.1

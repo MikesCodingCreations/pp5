@@ -52,4 +52,4 @@ I would like to acknowledge the following:
 
 **Peoples:**
 - A big thanks to the team at Tutor Support for their assistance in addressing any bugs I encountered along the way.
-- The Code Institute Slack for guidance.
+- The Code Institute Slack for guidance

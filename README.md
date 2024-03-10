@@ -11,6 +11,7 @@
 - CSS
 - JavaScript 
 - Python
+- Django
 
 ## Still to implement:
 - SEO

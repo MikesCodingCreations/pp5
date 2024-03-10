@@ -9,6 +9,8 @@ from profiles.models import UserProfile
 
 from products.models import Product
 
+from django.utils.encoding import force_str
+
 
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)

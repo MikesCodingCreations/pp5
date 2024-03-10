@@ -9,7 +9,7 @@ Django==4.2.11
 django-allauth==0.61.1
 django-countries==7.5.1
 django-countries-with-calling-codes==0.1.1
-django-crispy-forms==1.14.0
+django-crispy-forms==2.1
 django-storages==1.14.2
 django-utils-six==2.0
 frozenlist==1.4.1

@@ -27,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'eg-gl7t*qz=lo5he)24lay$pis1ck*7&p08-^l^lv*h@uicpe!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu109.gitpod.io']
 
 
 # Application definition

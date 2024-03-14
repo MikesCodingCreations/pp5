@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = False
 # DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', 'pureproteinpowderpp5.herokuapp.com', '.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu109.gitpod.io']
+ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', '.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu109.gitpod.io', '127.0.0.1', 'localhost', '*']
 
 
 # Application definition
@@ -174,6 +174,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

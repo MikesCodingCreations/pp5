@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/hero-img-one.jpg') no-repeat fixed;
+    background: url('/media/hero-img-one.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     padding-top: 25px;
@@ -79,7 +79,7 @@ body {
 }
 
 .bg-black {
-    background-color: #000 !important;
+    background: #000 !important;
 }
 
 .overlay {

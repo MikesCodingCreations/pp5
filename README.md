@@ -1,5 +1,5 @@
 # Pure Protein Powders
-![image](https://github.com/MikesCodingCreations/ecommerce_platform_pure_protein_powders/blob/main/main-site.png)
+![image]()
 
 ## Protein Powder and Apparel E-commerce Store.
 > E-commerce website that provide a high quality protein products from whey/clear protein powder, protein snacka and drinks to gym clothing.
@@ -17,51 +17,9 @@ Mike Brown
   - [Audience](#audience)
   - [Goals](#goals)
   - [User Stories](#user-stories)
-  - [Feasibility vs Importance](#feasibility-vs-importance)
   - [Scope](#scope)
   - [Design Choices](#design-choices)
   - [Frameworks](#frameworks)
-  - [Custom Styles](#custom-styles)
-  - [Custom Javascript](#custom-javascript)
-- [Wireframes](#wireframes)
-- [Information Architecture](#information-architecture)
-- [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Database Choice](#database-choice)
-- [Data Models](#data-models)
-- [CRUD Diagrams](#crud-diagrams)
-- [Agile Process](#agile-process)
-  - [User Story Templates](#user-story-templates)
-  - [Product Backlog](#product-backlog)
-  - [Iterations & Progress Boards](#iterations--progress-boards)
-- [Implemented Features](#implemented-features)
-  - [Features](#features)
-  - [Future Features](#future-features)
-- [Testing](#testing)
-- [E-commerce Business Model](#e-commerce-business-model)
-  - [Facebook Business Page](#facebook-business-page)
-  - [Newsletter Signup](#newsletter-signup)
-  - [Links](#links)
-- [SEO Strategy](#seo-strategy)
-  - [Keywords](#keywords)
-  - [Description](#description)
-  - [Title](#title)
-  - [Relevant Content](#relevant-content)
-  - [Sitemap](#sitemap)
-  - [Robots.txt](#robotstxt)
-- [Technologies Used](#technologies-used)
-  - [languages](#languages)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Deployment](#deployment)
-  - [Prerequisits](#prerequisits)
-  - [Fork and Clone the Repository](#fork-and-clone-the-repository)
-  - [Making a Local Clone](#making-a-local-clone)
-  - [Development Deployment](#development-deployment)
-    - [Running From GitPod or your preferred IDE:](#running-from-gitpod-or-your-preferred-ide)
-  - [Production Deployment](#production-deployment)
-- [Credits](#credits)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
 </details>
 
 <hr>
@@ -105,55 +63,58 @@ Mike Brown
 ## User Stories
 <details>
 <summary>User Stories</summary>
-- Customer Stories:
--- Browse and Shop:
---- As a customer, I want to view all products so I can choose what to buy.
---- As a customer, I want to review each product individually, including descriptions, ratings, prices, and images, to make informed decisions.
---- As a customer, I want to sort products by price, rating, or category to find what I need quickly.
---- As a customer, I want to search for products by name or description to locate specific items.
---- As a customer, I want to select product size and quantity before purchasing to ensure I get the right amount.
 
--- Shopping Cart and Checkout:
---- As a customer, I want to view my total product price within the basket to stay within my budget.
---- As a customer, I want to review items I've added to the basket before making a purchase to understand what I'm buying and the total cost.
---- As a customer, I want to make changes to the quantity of products in my basket to finalise the order before checkout.
---- As a customer, I want to enter my personal and bank details securely to complete the checkout process.
---- As a customer, I want to review the order I placed after checkout to ensure I've paid for the correct items.
---- As a customer, I want to receive an email confirmation with my order details, including purchased items and total payment, for future reference.
+**Customer Stories:** 
 
--- Account Management:
---- As a customer, I want to easily register for an account to save my details and reduce time on future purchases.
---- As a customer, I want a personalised user profile where I can view my purchase history and securely store payment information.
---- As a customer, I want to recover my password to regain access to my account.
+- Browse and Shop:
+    - As a customer, I want to view all products so I can choose what to buy.
+    - As a customer, I want to review each product individually, including descriptions, ratings, prices, and images, to make informed decisions.
+    - As a customer, I want to sort products by price, rating, or category to find what I need quickly.
+    - As a customer, I want to search for products by name or description to locate specific items.
+    - As a customer, I want to select product size and quantity before purchasing to ensure I get the right amount.
 
--- Content Consumption:
---- As a customer, I want to access informative blog posts to learn valuable health and fitness tips.
---- As a customer, I want to subscribe to the website's newsletter to stay updated on promotions and new products.
-Site Owner Stories:
+- Shopping Cart and Checkout:
+    - As a customer, I want to view my total product price within the basket to stay within my budget.
+    - As a customer, I want to review items I've added to the basket before making a purchase to understand what I'm buying and the total cost.
+    - As a customer, I want to make changes to the quantity of products in my basket to finalise the order before checkout.
+    - As a customer, I want to enter my personal and bank details securely to complete the checkout process.
+    - As a customer, I want to review the order I placed after checkout to ensure I've paid for the correct items.
+    - As a customer, I want to receive an email confirmation with my order details, including purchased items and total payment, for future reference.
 
--- Product Management:
---- As a site owner, I want to add new products to the website to keep the product catalog up-to-date.
---- As a site owner, I want to edit existing products, including names, descriptions, prices, images, and categories, to maintain accurate information.
---- As a site owner, I want to delete outdated products from the website to reduce clutter and showcase current offerings.
+- Account Management:
+    - As a customer, I want to easily register for an account to save my details and reduce time on future purchases.
+    - As a customer, I want a personalised user profile where I can view my purchase history and securely store payment information.
+    - As a customer, I want to recover my password to regain access to my account.
 
--- Content Management:
---- As a site owner, I want to manage blog content, including creating, editing, publishing, and deleting posts.
+- Content Consumption:
+    - As a customer, I want to access informative blog posts to learn valuable health and fitness tips.
+    - As a customer, I want to subscribe to the website's newsletter to stay updated on promotions and new products.
 
--- Subscription Management:
---- As a site owner, I want access to a list of subscribed users from Mailchimp to manage newsletter subscriptions.
+**Site Owner Stories:**
+
+- Product Management:
+    - As a site owner, I want to add new products to the website to keep the product catalog up-to-date.
+    - As a site owner, I want to edit existing products, including names, descriptions, prices, images, and categories, to maintain accurate information.
+    - As a site owner, I want to delete outdated products from the website to reduce clutter and showcase current offerings.
+    
+- Content Management:
+    - As a site owner, I want to manage blog content, including creating, editing, publishing, and deleting posts.
+
+- Subscription Management:
+    - As a site owner, I want access to a list of subscribed users from Mailchimp to manage newsletter subscriptions.
 
 </details>
 <hr>
 
 ## Scope
 - Building a Strong Foundation: Prioritising Features for Launch
-- - To make the most of our resources and development expertise, we're focusing on a Minimum Viable Product (MVP) that delivers the core functionalities users need most. Here's what you can expect:
+    - To make the most of our resources and development expertise, we're focusing on a Minimum Viable Product (MVP) that delivers the core functionalities users need most. Here's what you can expect:
 
-<strong>- Powerful Product Catalog:</strong> Browse and search with ease! Our well-organised catalog lets you find the perfect supplements based on category, brand, or even your specific health goals.
-<strong>- </strong>Personalised Accounts:</strong> Take control of your fitness journey. Create a user account to manage your profile, track past orders, and streamline future purchases.
-<strong>- Seamless Checkout:</strong> Shopping should be simple. Add items to your cart and navigate a smooth, secure checkout process for a hassle-free buying experience.
-<strong>- Customer-Driven Decisions:</strong> Your voice matters! Share your experience by leaving product reviews and ratings. This valuable feedback helps build trust and guides other customers towards the best products for them.
-<strong>- Optimised for All Devices:</strong> Experience PureProteinPowders anywhere, anytime. Our user-friendly and responsive design ensures a consistent and enjoyable experience on desktops, tablets, and mobile phones.
+- <strong>Powerful Product Catalog:</strong> Browse and search with ease! Our wellrganised catalog lets you find the perfect supplements based on category, brand, or even your specific health goals.
+- <strong>Personalised Accounts:</strong> Take control of your fitness journey. Create a user account to manage your profile, track past orders, and streamline future purchases.
+- <strong>Seamless Checkout:</strong> Shopping should be simple. Add items to your cart and navigate a smooth, secure checkout process for a hassle-free buying experience.
+- <strong>Customer-Driven Decisions:</strong> Your voice matters! Share your experience by leaving product reviews and ratings. This valuable feedback helps build trust and guides other customers towards the best products for them.
+- <strong>Optimised for All Devices:</strong> Experience PureProteinPowders anywhere, anytime. Our user-friendly and responsive design ensures a consistent and enjoyable experience on desktops, tablets, and mobile phones.
 
 ## Design Choices
 <details>
@@ -164,11 +125,8 @@ Site Owner Stories:
 ![image]()
 
 We didn't pick our website colors by accident! Every shade is carefully chosen to resonate with you, our fitness-focused audience. The palette evokes a sense of health, vitality, and energy – just like the feeling you get after a great workout. But it's not all about excitement – we've also balanced it with professional and trustworthy tones to create a visually appealing and inviting atmosphere you can rely on.
-- **#261F1D(Dark Brown):**  
 - **#FEFEFE(White):** 
-- **#182C2A(Dark Green):**  
-- **#E1D6D0(Light Beige):** 
-- **#CD8F73(Light Brown):** 
+- **#182C2A(Neon Green):**  
 - **#000(Black):** 
   
 <strong>Seamless Navigation, Energised Design:</strong> This cohesive color scheme creates a visually-appealing and user-friendly interface. It will guide you effortlessly through our fitness products, empowering you to confidently take the first step towards a healthier, fitter you.
@@ -203,15 +161,6 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 
 
 
-
-### Languages
-- HTML
-- CSS
-- JavaScript 
-- Python
-- Django
-
-## Still to implement:
 
 ## Credits
 I would like to acknowledge the following:

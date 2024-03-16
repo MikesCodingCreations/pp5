@@ -107,6 +107,8 @@ Mike Brown
 <hr>
 
 ## Scope
+<details>
+<summary>The scope</summary>
 - Building a Strong Foundation: Prioritising Features for Launch
     - To make the most of our resources and development expertise, we're focusing on a Minimum Viable Product (MVP) that delivers the core functionalities users need most. Here's what you can expect:
 
@@ -122,12 +124,10 @@ Mike Brown
   
 ### Colors
 
-![image]()
-
 We didn't pick our website colors by accident! Every shade is carefully chosen to resonate with you, our fitness-focused audience. The palette evokes a sense of health, vitality, and energy – just like the feeling you get after a great workout. But it's not all about excitement – we've also balanced it with professional and trustworthy tones to create a visually appealing and inviting atmosphere you can rely on.
-- **#FEFEFE(White):** 
-- **#182C2A(Neon Green):**  
-- **#000(Black):** 
+- **#FEFEFE(White)** 
+- **#182C2A(Neon Green)** 
+- **#000(Black)** 
   
 <strong>Seamless Navigation, Energised Design:</strong> This cohesive color scheme creates a visually-appealing and user-friendly interface. It will guide you effortlessly through our fitness products, empowering you to confidently take the first step towards a healthier, fitter you.
 
@@ -142,16 +142,353 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 ### Favicon
 <strong>A Tiny Icon, Big Impact:</strong>  We sweat the small stuff too! Our website favicon cleverly uses three interlocking **Ps** to form a powerful symbol. It's a subtle nod to our brand name, Pure Protein Powders, instantly recognisable to those familiar with our mission.
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/static/css/favicon/favicon-32x32.png)
 
 </details>
 
 <hr>
 
+## Wireframes
+<details>
+<summary>Wireframes</summary>
+  
+**Home Page:**
 
+![image]()
 
+**Product List:**
 
+![image]()
 
+**Product Details:**
+
+![image]()
+
+**Blog:**
+
+![image]()
+
+**Post Detail:**
+
+![image]()
+
+**Post Detail(with like - mobile view):**
+
+![image]()
+
+**Product List (Tablet View):**
+
+![image]()
+
+</details>
+<hr>
+
+# Agile
+## My user stories template
+
+![image]()
+
+# Website Features
+### The features
+**Nav Bar:**
+<details>
+<summary>The nav bar</summary>
+
+- **Desktop Nav Bar**
+  
+  ![image]()
+
+<hr>
+  
+- **Tablet Nav Bar**
+  
+  ![image]()
+
+<hr> 
+
+- **Mobile Nav Bar**
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+- **Logged in as admin**
+
+![image]()
+
+<hr>
+
+- **User not logged in**
+
+![image]()
+
+<hr>
+
+- **Logged in but as a regular user**
+
+![image]()
+
+<hr>
+
+- Effortless Navigation:  I designed the website with an intuitive navigation system that stays with you as you browse. This means you can easily find what you're looking for, no matter where you are on a page.
+- Always Within Reach: A fixed navigation bar sits at the top of the page, ensuring quick access to important actions and content, regardless of how far you've scrolled.
+- Mobile-Friendly Navigation: For mobile users, I use a familiar "hamburger" menu that simplifies navigation and keeps the interface consistent across all devices.
+
+</details>
+<hr>
+
+**Login / Logout / Register:**
+<details>
+<summary>Login / Logout / Register</summary>
+  
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+- Fast Track Login: Sign in quickly using your username or email address. New users? No problem! A clear link to sign up is right there on the login page.
+- Forgot Your Password? Happens to the best of us! Easily reset your password with our "Forgot Password" feature readily available on the sign-in page. No need for unnecessary hassle.
+- Seamless Sign-Up: Our sign-up process is straightforward. We'll let you know if your username or email is already in use, ensuring a secure and unique account for each user.
+- Security First: Rest assured, usernames and emails are unique to our system, preventing identity theft or impersonation.
+  
+</details>
+<hr>
+
+**The Products Page:**
+<details>
+<summary>All Products and Product details</summary>
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+**Shop with Ease:**  The Products Page is designed to make your shopping experience a breeze, from browsing to buying.
+
+- **Quick Add to Cart:** Skip unnecessary clicks with my "Quick Buy" buttons conveniently located below each product. Just a tap and your item is on its way to your cart!
+- **Informed Decisions:** Make confident choices with my clear and concise product descriptions. I provide all the essential details you need right at your fingertips.
+- **Everything You Need to Know:** Each product page displays key information like name, price, rating, and category. Plus, you can easily adjust the quantity you want in the dedicated section.
+
+</details>
+<hr>
+
+**Basket & Checkout section:**
+<details>
+<summary>The Basket & Checkout section</summary>
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+**Hassle-Free Checkout:**  We've made checking out a breeze!
+
+- **Manage Your Cart:** Your bag is your shopping haven. See all your chosen items with clear images, names, prices, and unique SKUs. Easily adjust quantities or remove items with the convenient quantity buttons - you're in control!
+- **Secure & Simple Checkout:** The checkout is designed with both ease and security in mind. Just fill out the user-friendly form with your shipping and payment details. For complete peace of mind, a clear order summary lets you review everything before finalizing your purchase. No surprises, just satisfaction!
+
+</details>
+<hr>
+
+**Profile:**
+<details>
+<summary>The Profile Sectopm</summary>
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+**Your Account Command Center:**  Your personalized hub for everything account-related!
+
+- **Effortless Updates:** Keep your shipping details fresh and avoid checkout hassles! Easily view and edit your default delivery information directly in "My Profile Page".
+- **Order History at Your Fingertips:** Never lose track of your purchases! The comprehensive order history is conveniently organised by order number. Just click on an order number to revisit its details, perfect for repeat purchases or order tracking.
+
+</details>
+<hr>
+
+**Blog:**
+<details>
+<summary>The Blog</summary>
+
+![image]()
+
+<hr>
+
+![image]()
+
+<hr>
+
+**Your Source for Health & Wellness Inspiration:** The blog is bursting with valuable content to empower your health and wellness journey.
+
+- **Discover Delicious Recipes:** Explore a wide range of informative articles on health tips, wellness advice, and mouthwatering recipes – all designed to fuel your well-being.
+- **Deep Dives & Engagement:** Dive deeper into topics that pique your interest by clicking on any post title. Here, you can enjoy the full article in a focused and immersive way, even interacting with content by giving it a like!
+- **Shop the Blog:** Seamlessly connect your content with action. I have carefully curated related products at the end of relevant blog posts, making it easy to find the perfect complement to what you're reading.
+
+</details>
+<hr>
+
+**Footer:**
+<details>
+<summary>The Footer</summary>
+
+![image]()
+
+**Stay Connected & Explore More:**
+
+- **Social Links:** The footer connects you directly to Pure Protein Powder's social media channels, making it easy to stay in the loop about new products and exciting content.
+- **Accessibility Focus:** I have included helpful "aria-labels" for screen readers, ensuring a smooth experience for all users.
+- **Easy Navigation:** All users can effortlessly access key links to our products and services from the footer.
+- **Join the Community:** Want to stay up-to-date on the latest news and offers? Simply enter your email address in the convenient newsletter signup section.
+
+</details>
+<hr>
+
+**Admin Only:**
+<details>
+<summary>Admin Only views </summary>
+
+![image]()
+
+- The products page empowers admins to easily update or remove products as needed.
+
+<hr>
+
+![image]()
+
+- Admins can add new products through the product management interface by filling out a form with relevant information.
+
+<hr>
+
+![image]()
+
+- Admins can manage reviews, including editing or deleting them when necessary.
+
+</details>
+<hr>
+
+### Error pages 400/404/403/500
+<details>
+<summary>Error Page Details</summary>
+
+- **404 Error Page:**
+  
+  ![image]()
+
+<hr>
+
+- **403 Error Page:**
+
+  ![image]()
+
+<hr>
+
+- **500 Error Page:**
+
+![image]()
+
+<hr>
+
+</details>
+<hr>
+
+## Testing
+
+See the [TESTING.MD](TESTING.md) file for detailed test results
+
+## The Business Model
+### Facebook Business Page
+
+![image]()
+
+<hr>
+
+![image]()
+
+- **Join the Conversation:** We love hearing from you! Participate in discussions, ask questions, and share your thoughts – we're here to listen and engage with our amazing community.
+- **Stay in the Know:** Get the scoop on exciting product launches, restocks, and upcoming collections before anyone else!
+- **Learn & Grow:** We're passionate about sharing valuable knowledge and insights related to our products and industry. Explore informative and educational content that empowers you to make informed choices.
+- **Your Voice Matters:** Your feedback is invaluable! Tell us what you love, what you'd like to see more of, and how we can improve. We're committed to continuously evolving based on your needs.
+
+### Newsletter Signup
+
+![image]()
+
+### Grow with Us:  Our newsletter is your gateway to stay connected and informed!
+
+- **Expand Your Horizons:** Join our community and discover what we're all about, even if you haven't shopped with us yet!
+- **Stay in the Loop:** Subscribers receive exclusive updates on new products, exciting company news, and special offers delivered directly to your inbox.
+- **A Two-Way Street:** We value your feedback and interests. The newsletter fosters a deeper connection, allowing us to understand your preferences.
+- **Build a Lasting Relationship:** By subscribing, you'll become part of our valued community. We'll continue to provide informative and engaging content tailored to your interests.
+
+### Links
+- [PureProteinPowders Business Facebook Page]()
+- [PureProteinPowders Newsletter Signup]() Stay in the loop! Sign up for our newsletter at the bottom of our website.
+
+# SEO Implementation
+Through SEO strategy, I boosted the website's search engine visibility. This involved targeted keyword research, optimised titles and descriptions, and strategic keyword integration within the content itself.
+
+## Keywords
+- To ensure my website resonates with my target audience, I conducted an in-depth industry analysis to identify key themes, products, and services that align perfectly with their needs. 
+- This included a comprehensive review of competitor websites, allowing me to glean valuable insights into their targeted keywords. 
+- By leveraging this knowledge, I was able to refine my own keyword strategy, incorporating both high-volume short-tailed keywords and specific long-tailed keywords to capture a wider range of search queries.
+
+### Targeted Keywords:
+
+- **Short-tail:** I targeted broad terms like "protein powder", "whey protein", "vegan based protein", "muscle building supplements", "workout protein", "post workout protein", "protein for weight loss", "protein shakes", "healthy snacks", "protein bar", "high protein food", "activewear", "workout clothes", "gym clothes", "fitness apparel", "leggings", "workout shorts","tank tops" and "gym hoodies" to capture a wide audience searching for general supplement information.
+- **Long-tail:** I also incorporated long-tail keywords like "best protein powder for muscle gain", "protein powder for weight loss for women", "vegan protein powder for athletes", "best protein powder for beginners", "lactose-free protein powder for shakes", "high-protein snacks with protein powder", "protein powder recipes for weight loss", "best protein powder for building lean muscle", "protein powder to boost post-workout recovery", "sweat-wicking workout shirts for men", "affordable yoga clothes for beginners", "stylish activewear sets for women", "moisture-wicking gym shorts for men", "eco-friendly activewear made from recycled materials", "high-intensity training (HIIT) workout clothes", "lightweight breathable hoodie", "breathable tank tops for hot yoga classes" to attract users with defined needs.
+
+### Description Optimisation:
+
+**Meta Tag Integration:** I prioritised crafting compelling meta descriptions that use relevant keywords to introduce our content and entice users to click.
+**Content Accuracy:** I maintain flexibility to update descriptions whenever content changes, ensuring they accurately reflect the current page information.
+
+### Dynamic Titles:
+
+**Centralised Control:** My base.html template serves as a central hub for managing page titles, allowing for easy customization for each page.
+**SEO Benefits:** This dynamic approach empowers us to optimize titles with relevant keywords, further enhancing my search engine visibility.
+
+### Strategic Keyword Integration:
+
+**Content Harmony:** I strategically weaved my chosen keywords throughout various content elements, including headings (H1 tags), meta data, product names, and descriptions.
+**User-Centric Approach:** This integration ensures my content remains not only search-engine friendly but also informative and valuable to my target audience.
+
+## Technologies Used
+This website is powered by a combination of technologies.
+- AWS Amazon
+- Balsamiq
+- Bootstrap
+- Django
+- Favicon
+- Font Awesome
+- Git / Github
+- Gitpod
+- Google Fonts
+- Heroku
+- JavaScript
+- PostgreSQL
+- Python
+- Stripe
+- W3 HTML
 
 
 
@@ -196,5 +533,4 @@ I would like to acknowledge the following:
 
 **Peoples:**
 - A big thanks to the team at Tutor Support for their assistance in addressing any bugs I encountered along the way.
-- 
 - The Code Institute Slack for guidance

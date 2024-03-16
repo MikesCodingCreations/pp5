@@ -9,19 +9,6 @@
 ## Author
 Mike Brown
 
-# Table of Contents
-<details>
-<summary>Use the links below to navigate to certain parts of the README.</summary>
-
-- [UX](#ux)
-  - [Audience](#audience)
-  - [Goals](#goals)
-  - [User Stories](#user-stories)
-  - [Scope](#scope)
-  - [Design Choices](#design-choices)
-  - [Frameworks](#frameworks)
-</details>
-
 <hr>
 
 # UX
@@ -93,12 +80,12 @@ Mike Brown
 **Site Owner Stories:**
 
 - Product Management:
-    - As a site owner, I want to add new products to the website to keep the product catalog up-to-date.
+    - As a site owner, I want to add new products to the website to keep the product catalogue up-to-date.
     - As a site owner, I want to edit existing products, including names, descriptions, prices, images, and categories, to maintain accurate information.
     - As a site owner, I want to delete outdated products from the website to reduce clutter and showcase current offerings.
     
 - Content Management:
-    - As a site owner, I want to manage blog content, including creating, editing, publishing, and deleting posts.
+    - As a site owner, I want to manage blog content, including creating, editing, publishing, and deleting posts so that my customers can view up-to-date company information.
 
 - Subscription Management:
     - As a site owner, I want access to a list of subscribed users from Mailchimp to manage newsletter subscriptions.

@@ -18,10 +18,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="activewear-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Activewear
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="activewear-link">
                 <a href="{% url 'products' %}?category=mens_clothing" class="dropdown-item">Mens Clothing</a>
                 <a href="{% url 'products' %}?category=womens_clothing" class="dropdown-item">Womens Clothing</a>
                 <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
@@ -30,27 +30,40 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="food-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Food
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bars" class="dropdown-item">Bars</a>
-                <a href="{% url 'products' %}?category=drinks" class="dropdown-item">Drinks</a>
-                <a href="{% url 'products' %}?category=snacks" class="dropdown-item">Snacks</a>
+            <div class="dropdown-menu border-0" aria-labelledby="food-link">
+                <a href="{% url 'products' %}?category=bars" class="dropdown-item">Protein Bars</a>
+                <a href="{% url 'products' %}?category=drinks" class="dropdown-item">Protein Drinks</a>
+                <a href="{% url 'products' %}?category=snacks" class="dropdown-item">Protein Snacks</a>
                 <a href="{% url 'products' %}?category=bars,drinks,snacks" class="dropdown-item">All Food</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="vitamins-link">
+                Vitamins
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="protein-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Protein
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="protein-link">
                 <a href="{% url 'products' %}?category=whey_protein" class="dropdown-item">Whey Protein</a>
                 <a href="{% url 'products' %}?category=clear_protein" class="dropdown-item">Clear Protein</a>
                 <a href="{% url 'products' %}?category=vegan_protein" class="dropdown-item">Vegan Protein</a>
                 <a href="{% url 'products' %}?category=whey_protein,clear_protein,vegan_protein" class="dropdown-item">All Protein</a>
             </div>
         </li>
+
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="blog-link">
+                Blog
+            </a>
+        </li>
+
     </ul>
 </div>

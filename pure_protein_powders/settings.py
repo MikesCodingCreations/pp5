@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # DEBUG = False
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu109.gitpod.io', 'localhost', '*']
+ALLOWED_HOSTS = ['pureproteinpowderpp5-6078f21bc874.herokuapp.com', '8000-mikescodingcreat-pp5-ny7fn8ulako.ws-eu109.gitpod.io', '*']
 
 
 # Application definition
@@ -51,10 +51,13 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'blog',
     
     # other
     'crispy_forms',
     'storages',
+    'cloudinary',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [

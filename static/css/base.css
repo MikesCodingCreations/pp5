@@ -293,6 +293,15 @@ input[name="q"]::placeholder {
     border-radius: 0;
 }
 
+.post-link {
+    color: black;
+}
+
+.post-link:hover {
+    color: rgb(70, 255, 92);
+    text-decoration: none;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {

@@ -1,4 +1,3 @@
-{% comment %}
 
 {% load static %}
 {% block content %}
@@ -7,8 +6,7 @@
     <div class="container-xl d-flex flex-column">
         <span class="logo-font text-white my-0 text-center pt-3" id="footer-header">Pure <strong class="logo-strong">Protein</strong> Powders</span>
         <p class="text-white text-center mt-2" id="footer-subheader">The purest quality of protein is here.</p>
-        <hr style="border: 0;" >
-        <div class="footer-content row row-reverse d-flex flex-row">
+        <div class="footer-content row row-reverse d-flex flex-row text-center">
             <div class="col-md-4 footer-content-container">
                 <h3 class="text-white mb-3">Products & Services</h3>
                 <ul class="list-unstyled">
@@ -16,14 +14,11 @@
                         <a class="text-white" href="{% url 'products' %}">All Products</a>
                     </li>
                     <li>
-                        <a class="text-white" href="">Blog</a>
-                    </li>
-                    <li>
-                        <a class="text-white" href="">Expect advice request</a>
+                        <a class="text-white" href="{% url 'blog' %}">Blog</a>
                     </li>
                 </ul>
                 
-                <ul class="list-inline social d-flex flex-row align-content-center justify-content-spa">
+                <ul class="list-inline social d-flex flex-row align-content-center justify-content-around">
                     <li>
                         <a href="" rel="nofollow" target="_blank" aria-label="Facebook">
                             <i class="fab fa-facebook-f interactive-color"></i>
@@ -55,10 +50,9 @@
 
             </div>
         </div>
-        <hr>
         <div class="footer-bottom">
             <div class="copyright">
-                <p class="text-white"><i class="far fa-copyright"></i> All Rights Reserved | Pure Protein Powders</p>
+                <p class="text-white text-center p-2"><i class="far fa-copyright"></i> All Rights Reserved | Pure Protein Powders</p>
             </div>
         </div>
     </div>
@@ -85,4 +79,3 @@
 <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 {% endblock %}
 
-{% endcomment %}

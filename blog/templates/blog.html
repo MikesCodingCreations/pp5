@@ -7,9 +7,9 @@
       <div class="col text-center">
         <h2 class="text-black-blog mt-3">The Blog</h2>
         {% if request.user.is_superuser %}
-            <a href="">Add a blog post</a>
+            <a href="{% url 'add_post' %}">Add a blog post</a>
         {% endif %}
-        <hr style="width: 80%;">
+        <hr>
       </div>
     </div>
   </div>
@@ -45,8 +45,7 @@
                                 <p class="card-text text-muted h6">{{ post.created_on}}</p>
                                 {% if request.user.is_superuser %}
                                 <div class="super-user-button-container">
-                                    <a href="" class="btn shop-now-button mb-2">Edit blog</a>
-                                    <a href="" class="btn shop-now-button">Delete blog</a>
+                                    <a href="{% url 'delete_post' post.id %}" class="btn shop-now-button">Delete post</a>
                                 </div>
                                 {% endif %}
                             </div>
@@ -61,7 +60,7 @@
             </div>
         </div>
         {% if is_paginated %}
-        <nav aria-label="Page navigation">
+        <nav aria-label="Page navigation mb-5">
             <ul class="pagination justify-content-center">
                 {% if page_obj.has_previous %}
                 <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
@@ -74,5 +73,6 @@
         </nav>
         {% endif %}
     </div>
+    <br>
 </body>
 {%endblock%}

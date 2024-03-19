@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block page_header %}
+<div class="header-container">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="text-black-blog mt-3">Add a Blog Post</h2>
+        <hr>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container page-content">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <form method="POST" action="" class="form mb-2" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+                    <br>
+                    <div class="text-right">
+                        <a href="{% url 'blog' %}" class="btn btn-outline-warning btn-md menu-mng-cancel-btn">Cancel</a>
+                        <button class="btn btn-outline-warning btn-md" type="submit">Add Blog Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

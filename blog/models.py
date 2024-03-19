@@ -1,6 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import User
-from products.models import Product
 
 
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -12,12 +11,12 @@ class Post(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
-    featured_image = models.ImageField(null=True, blank=True)
+    featured_image = models.ImageField(null=True, blank=True)    
     excerpt = models.TextField(blank=True)
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    status = models.IntegerField(choices=STATUS, default=0)
+    status = models.IntegerField(choices=STATUS, default=2)
     likes = models.ManyToManyField(
         User, related_name='blogpost_like', blank=True)
 
@@ -38,7 +37,7 @@ class Comment(models.Model):
     email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    approved = models.BooleanField(default=False)
+    approved = models.BooleanField(default=True)
 
     class Meta:
         ordering = ["created_on"]

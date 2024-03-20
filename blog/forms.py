@@ -11,4 +11,4 @@ class BlogForm(forms.ModelForm):
     class Meta:
         model = Post
         fields = "__all__"
-        exclude = ['author', 'created', 'excerpt' 'likes']
+        exclude = ['author', 'created', 'excerpt' 'likes', 'status']

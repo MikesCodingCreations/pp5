@@ -10,6 +10,14 @@ html {
     font-family: 'Lato';
 }
 
+body {
+    background: url('/media/hero-img-one.jpg') no-repeat center center fixed cover;
+    height: calc(100vh - 164px);
+    padding-top: 25px;
+    color: #555;
+    font-family: 'Lato';
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

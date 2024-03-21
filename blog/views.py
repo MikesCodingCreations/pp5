@@ -8,7 +8,6 @@ from django.contrib import messages
 from django_summernote.widgets import SummernoteWidget
 
 
-
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -17,7 +16,6 @@ class PostList(generic.ListView):
 
 
 class PostDetail(View):
-
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
@@ -71,7 +69,6 @@ class PostDetail(View):
 
 
 class PostLike(View):
-    
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():

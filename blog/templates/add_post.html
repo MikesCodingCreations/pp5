@@ -2,6 +2,8 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
+{% load static %}  <link rel="stylesheet" type="text/css" href="{% static 'summernote/dist/summernote.css' %}">
+
 {% block page_header %}
 <div class="header-container">
     <div class="row">
@@ -29,4 +31,10 @@
             </div>
         </div>
     </div>
+    <script src="{% static 'summernote/dist/summernote.js' %}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#content').summernote(); 
+        });
+    </script>
 {% endblock %}

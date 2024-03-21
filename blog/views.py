@@ -5,6 +5,8 @@ from .models import Post, Comment
 from .forms import CommentForm, BlogForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django_summernote.widgets import SummernoteWidget
+
 
 
 class PostList(generic.ListView):
@@ -106,14 +108,15 @@ def add_post(request):
         form = BlogForm(request.POST, request.FILES)
         if form.is_valid():
             form.instance.author = request.user
-            post = form.save(commit=False)  
-            post.status = 1 
+            post = form.save(commit=False)
+            post.status = 1
             post.save()
             messages.success(request, 'Successfully added blog post!')
             return redirect('blog')
         else:
             messages.error(request, 'Failed to add menu item.')
-    else: form = BlogForm()
+    else:
+        form = BlogForm()
 
     template = 'add_post.html'
     context = {

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: https://https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/sitemap.xml

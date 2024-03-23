@@ -8,6 +8,11 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description"
+      content="Pure Protein Powders, the words purest quality protein curently available. 
+      Along with protein powder, we also have protein snacks, activewear and accessories!">
+      <meta name="keywords" content="protein, online shop, fast delivery, gym, gym apparel, 
+      activewear, mens clothing, womens clothing, gym accessories, workout supplements, vegan">
     {% endblock %}
 
     {% block extra_meta %}
@@ -24,10 +29,10 @@
     {% block extra_css %}
     {% endblock %}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="css/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="css/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="css/favicon/favicon-16x16.png">
-    <link rel="manifest" href="css/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'css/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'css/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'css/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'css/favicon/site.webmanifest' %}">
 
     {% block corejs %}
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>      
@@ -104,7 +109,6 @@
               </a>
             </li>
 
-
             {% if request.user.is_authenticated %}
             <li class="list-inline-item">
               <a class="text-black nav-link" href="{% url 'view_wishlist' %}">
@@ -113,8 +117,8 @@
                     <p class="my-0">My Wishlist</p>
                 </div>
               </a>
-            {% endif %}
             </li>
+            {% endif %}
 
           </ul>
         </div>

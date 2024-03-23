@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/accounts/login/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/bag/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=mens_clothing</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=womens_clothing</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=accessories</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=mens_clothing,womens_clothing,accessories</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=bars</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=drinks</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=snacks</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=bars,drinks,snacks</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=whey_protein</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=clear_protein</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=vegan_protein</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/?category=whey_protein,clear_protein,vegan_protein</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/3/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/4/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/14/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/11/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/15/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/2/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/10/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/7/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/13/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/9/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/12/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/5/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/8/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/products/6/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/rest-and-recovery-the-key-to-long-term-fitness-success/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/hiit-it-hard-the-science-behind-high-intensity-interval-training/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/strength-training-101-building-a-foundation-for-a-fitter-you/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/plant-powered-protein-delicious-plant-based-options-for-every-meal/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/beyond-muscle-unexpected-benefits-of-getting-enough-protein/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/unlocking-your-potential-how-protein-supports-a-healthy-immune-system/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/?page=2</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/fuel-your-body-right-the-ultimate-guide-to-macronutrients/</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/blog/?page=1</loc>
+  <lastmod>2024-03-23T14:59:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

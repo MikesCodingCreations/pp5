@@ -3,13 +3,11 @@ html {
 }
 
 body {
-    background: url('/media/hero-img-two.jpg') no-repeat center fixed;
     height: calc(100vh - 164px);
     padding-top: 25px;
     font-family: 'Lato';
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -271,8 +269,6 @@ input[name="q"]::placeholder {
 	color: #17a2b8; 
 }
 
-/* Product Form */
-
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -328,10 +324,6 @@ input[name="q"]::placeholder {
 }
 
 @media (max-width: 991px) {
-    .mobile-wishlist {
-        display: block;
-    }
-    
     .header-container {
         padding-top: 116px;
     }
@@ -374,10 +366,6 @@ input[name="q"]::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .4rem !important;
-    }
-
-    .header-container {
-        display: none;
     }
 
     #blog-mobile {

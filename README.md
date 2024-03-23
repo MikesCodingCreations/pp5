@@ -4,7 +4,7 @@
 ## Protein Powder and Apparel E-commerce Store.
 > E-commerce website that provide a high quality protein products from whey/clear protein powder, protein snacka and drinks to gym clothing.
 
-## Click [here](https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/) to live site..
+## Click [here](https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/) to live site.
 
 ## Author
 Mike Brown
@@ -94,7 +94,6 @@ Mike Brown
 <hr>
 
 ## Scope
-<details>
 <summary>The scope</summary>
 - Building a Strong Foundation: Prioritising Features for Launch
     - To make the most of our resources and development expertise, we're focusing on a Minimum Viable Product (MVP) that delivers the core functionalities users need most. Here's what you can expect:
@@ -120,7 +119,7 @@ We didn't pick our website colors by accident! Every shade is carefully chosen t
 
 ### Typography
 <strong>Fonts That Fit Your Fitness Goals:</strong>
-Just like our design, the fonts on the PureProteinPowders website are chosen with purpose. We use a modern, clean primary font **(we'll reveal the name soon!)** that ensures easy reading on any device, whether you're browsing on your desktop or checking us out on the go. Headings are clear and attention-grabbing, guiding you through the content effortlessly. And to make sure you never miss a call to action, buttons and important elements use slightly larger, stand-out fonts.
+Just like our design, the fonts on the PureProteinPowders website are chosen with purpose. We use a modern, clean primary font **Lato** that ensures easy reading on any device, whether you're browsing on your desktop or checking us out on the go. Headings are clear and attention-grabbing, guiding you through the content effortlessly. And to make sure you never miss a call to action, buttons and important elements use slightly larger, stand-out fonts.
 
 ### Images
 - **Hero image:** 
@@ -132,7 +131,6 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/static/css/favicon/favicon-32x32.png)
 
 </details>
-
 <hr>
 
 ## Wireframes
@@ -373,38 +371,27 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 </details>
 <hr>
 
-### Error pages 400/404/403/500
+### Error page
 <details>
 <summary>Error Page Details</summary>
 
-- **404 Error Page:**
+- **Error Page:**
   
   ![image]()
-
-<hr>
-
-- **403 Error Page:**
-
-  ![image]()
-
-<hr>
-
-- **500 Error Page:**
-
-![image]()
-
-<hr>
 
 </details>
 <hr>
 
 ## Testing
-
+<details>
 See the [TESTING.MD](TESTING.md) file for detailed test results
+</details>
+
+<hr> 
 
 ## The Business Model
 ### Facebook Business Page
-
+<details>
 ![image]()
 
 <hr>
@@ -430,8 +417,12 @@ See the [TESTING.MD](TESTING.md) file for detailed test results
 ### Links
 - [PureProteinPowders Business Facebook Page]()
 - [PureProteinPowders Newsletter Signup]() Stay in the loop! Sign up for our newsletter at the bottom of our website.
+</details>
+
+<hr> 
 
 # SEO Implementation
+<details>
 Through SEO strategy, I boosted the website's search engine visibility. This involved targeted keyword research, optimised titles and descriptions, and strategic keyword integration within the content itself.
 
 ## Keywords
@@ -458,9 +449,11 @@ Through SEO strategy, I boosted the website's search engine visibility. This inv
 
 **Content Harmony:** I strategically weaved my chosen keywords throughout various content elements, including headings (H1 tags), meta data, product names, and descriptions.
 **User-Centric Approach:** This integration ensures my content remains not only search-engine friendly but also informative and valuable to my target audience.
+</details>
 
 ## Technologies Used
-This website is powered by a combination of technologies.
+<details>
+<summary>This website is powered by a combination of technologies.</summary>
 - AWS Amazon
 - Balsamiq
 - Bootstrap
@@ -476,8 +469,8 @@ This website is powered by a combination of technologies.
 - Python
 - Stripe
 - W3 HTML
-
-
+<details>
+<hr>
 
 
 
@@ -487,7 +480,9 @@ This website is powered by a combination of technologies.
 
 
 ## Credits
-I would like to acknowledge the following:
+<detail>
+<summary>I would like to acknowledge the following:</summary>
+<hr>
 
 **Online Resrces:**
 - [Code Institue Template](https://github.com/Code-Institute-Org/ci-full-template)
@@ -521,3 +516,4 @@ I would like to acknowledge the following:
 **Peoples:**
 - A big thanks to the team at Tutor Support for their assistance in addressing any bugs I encountered along the way.
 - The Code Institute Slack for guidance
+</detail>

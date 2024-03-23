@@ -7,10 +7,6 @@ from django_countries.fields import CountryField
 
 
 class UserProfile(models.Model):
-    """
-    User profile model to offer
-    deliverty and order details
-    """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     default_phone_number = models.CharField(max_length=20, null=True, blank=True)
     default_street_address1 = models.CharField(max_length=80, null=True, blank=True)
@@ -19,6 +15,7 @@ class UserProfile(models.Model):
     default_county = models.CharField(max_length=80, null=True, blank=True)
     default_postcode = models.CharField(max_length=20, null=True, blank=True)
     default_country = CountryField(blank_label='Country', null=True, blank=True)
+    
 
     def __str__(self):
         return self.user.username
@@ -26,10 +23,6 @@ class UserProfile(models.Model):
     
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
-    """
-    Create/Update profile of user
-    """
     if created:
         UserProfile.objects.create(user=instance)
-    # Existing users: Save the profile
     instance.userprofile.save()

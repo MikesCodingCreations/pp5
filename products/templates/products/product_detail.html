@@ -109,7 +109,7 @@
                         </div>
                     </form>
 
-                    <!-- Add to wishlist form -->
+                    {% if request.user.is_authenticated %}
                     <form class="form" action="{% url 'add_to_wishlist' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
@@ -127,15 +127,16 @@
                                   <option value="xl">XL</option>
                                   <option value="xxl">XXL</option>
                                 </select>
-
                             {% endif %}
+
                               <input type="submit" class="btn shop-now-button mt-3 ml-1 rounded-0" value="Add to Wishlist">
+
                             </div>
                           {% endwith %}
                           <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                       </form>
-
+                      {% endif %}
                 </div>
             </div>
         </div>

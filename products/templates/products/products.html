@@ -83,10 +83,10 @@
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
                                             {% if request.user.is_superuser %}
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_a_product' product.id %}">Edit</a>
-                                                    <a href="{% url 'delete_a_product' product.id %}" class="text-danger">Delete</a>
-                                                </small>
+                                                <div class="d-flex justify-content-between pt-2">
+                                                    <a href="{% url 'edit_a_product' product.id %}" class="text-success btn" style="background-color: black;">Edit</a>
+                                                    <a href="{% url 'delete_a_product' product.id %}" class="text-danger btn" style="background-color: black;">Delete</a>
+                                                </div>
                                             {% endif %}
                                         </div>
                                     </div>

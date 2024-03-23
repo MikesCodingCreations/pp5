@@ -115,8 +115,6 @@ input[name="q"]::placeholder {
     color: #6c757d;
 }
 
-/* ------------------------------- bootstrap toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -132,7 +130,6 @@ input[name="q"]::placeholder {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -144,7 +141,6 @@ input[name="q"]::placeholder {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -183,11 +179,9 @@ input[name="q"]::placeholder {
     overflow-y: auto;
 }
 
-/* Signout page */
 #signout-btn {
     padding-top: 250px;
 }
-
 
 #footer-header {
     font-size: 40px;
@@ -207,18 +201,14 @@ input[name="q"]::placeholder {
 }
 
 
-
-
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
 
-/* Allauth formatting form */
 .allauth-form-innect-content p {
     margin-top: 1.5rem;
     color: #6c757d;
@@ -309,7 +299,9 @@ input[name="q"]::placeholder {
 }
 
 
+
 @media (min-width: 992px) {
+
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -324,6 +316,7 @@ input[name="q"]::placeholder {
 }
 
 @media (max-width: 991px) {
+    
     .header-container {
         padding-top: 116px;
     }
@@ -397,6 +390,5 @@ input[name="q"]::placeholder {
         align-items: center;
         justify-content: space-around;
     }
-
 
 }

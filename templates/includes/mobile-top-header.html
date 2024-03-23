@@ -56,8 +56,8 @@
     </a>
 </li>
 {% if request.user.is_authenticated %}
-<li class="list-inline-item mobile-wishlist d-none">
-  <a class="text-black nav-link" href="{% url 'view_wishlist' %}">
+<li class="list-inline-item d-lg-none">
+  <a class="text-black nav-link " href="{% url 'view_wishlist' %}">
     <div class="text-center">
         <div><i class="fa-regular fa-star fa-lg" id="star"></i></div>
         <p class="my-0">My Wishlist</p>

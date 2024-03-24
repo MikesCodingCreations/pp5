@@ -2,10 +2,16 @@ from django.shortcuts import render, redirect, reverse, HttpResponse, get_object
 from django.contrib import messages
 
 from products.models import Product
+from wishlist.models import WishItem
 
 
 def view_wishlist(request):
-    return render(request, 'wishlist.html')
+    bag_items = WishItem.objects.filter(user=request.user)
+    context = {
+        'bag_items': bag_items,
+    }
+
+    return render(request, 'wishlist.html', context)
 
 def add_to_wishlist(request, item_id):
 

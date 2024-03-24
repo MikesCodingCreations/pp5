@@ -10,9 +10,9 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        # migrations.AddField(
-        #     model_name='post',
-        #     name='featured_image',
-        #     field=models.ImageField(blank=True, null=True, upload_to=''),
-        # ),
+        migrations.AddField(
+            model_name='post',
+            name='featured_image',
+            field=models.ImageField(blank=True, null=True, upload_to=''),
+        ),
     ]

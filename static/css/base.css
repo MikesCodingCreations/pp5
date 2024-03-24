@@ -119,7 +119,7 @@ input[name="q"]::placeholder {
 .message-container {
     position: fixed;
     top: 72px;
-    right: 15px;
+    right: 140px;
     z-index: 99999999999;
 }
 
@@ -316,16 +316,26 @@ footer,
         font-size: 2.5rem;
     }
 
+    .message-container {
+        right: 155px;
+    }
+
 
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+    .message-container {
+        right: 200px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .message-container {
+        right: 290px;
+    }
+
     footer {
         width: auto;
     }

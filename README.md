@@ -392,11 +392,12 @@ See the [TESTING.MD](TESTING.md) file for detailed test results
 ## The Business Model
 ### Facebook Business Page
 <details>
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage1.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage2.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage3.png)
 
 - **Join the Conversation:** We love hearing from you! Participate in discussions, ask questions, and share your thoughts – we're here to listen and engage with our amazing community.
 - **Stay in the Know:** Get the scoop on exciting product launches, restocks, and upcoming collections before anyone else!

@@ -206,6 +206,16 @@ footer,
     border: none;
 }
 
+.interactive-color {
+    border: 1px solid white; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+.interactive-color:hover {
+    border: 1px solid rgb(70, 255, 92); 
+}
+
 
 #mc_embed_signup {
     background-color:#fff;

@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     height: 100%;
 }
@@ -39,7 +44,7 @@ body {
 
 .shop-now-button {
     background: black;
-    min-width: 260px;
+    min-width: 100px;
 }
 
 .btn-black {
@@ -183,6 +188,11 @@ input[name="q"]::placeholder {
     padding-top: 250px;
 }
 
+footer,
+#footer {
+    width: 100%;
+}
+
 #footer-header {
     font-size: 40px;
 }
@@ -210,15 +220,6 @@ input[name="q"]::placeholder {
 
 .mc-field-group {
     padding-bottom: 0;
-}
-
-
-/* -------------------------------- Media Queries */
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
 }
 
 .allauth-form-innect-content p {
@@ -311,23 +312,62 @@ input[name="q"]::placeholder {
 }
 
 
+/* -------------------------------- Media Queries */
 
-@media (min-width: 992px) {
-
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1050;
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #landing-logo {
+        font-size: 2.5rem;
     }
 
-    .header-container {
-        padding-top: 164px;
-    }
+
 }
 
-@media (max-width: 991px) {
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    footer {
+        width: auto;
+    }
+    .footer-content-container:nth-child(1){
+        border-top: none;
+    }
+
+    .footer-content-container {
+        border: none;
+    }
+
+    .footer-content {
+        border-top: 1px solid rgb(70, 255, 92);
+    }
+
+    .footer-bottom {
+        border-top: 1px solid rgb(70, 255, 92);
+    }
+
+    .shop-now-button {
+        max-width: 100px !important;
+    }
+
+    
+
+
+
+    #landing-logo {
+        font-size: 2.5rem;
+    }
+
+    .ml-3, .mx-3 {
+        margin-left: 0 !important;
+    }
+
+    #mc_embed_signup{
+        width: 100%;
+    }
     
     .header-container {
         padding-top: 116px;
@@ -402,5 +442,16 @@ input[name="q"]::placeholder {
         align-items: center;
         justify-content: space-around;
     }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
 
 }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
+
+

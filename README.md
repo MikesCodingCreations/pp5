@@ -94,6 +94,7 @@ Mike Brown
 <hr>
 
 ## Scope
+<details>
 <summary>The scope</summary>
 - Building a Strong Foundation: Prioritising Features for Launch
     - To make the most of our resources and development expertise, we're focusing on a Minimum Viable Product (MVP) that delivers the core functionalities users need most. Here's what you can expect:
@@ -103,6 +104,7 @@ Mike Brown
 - <strong>Seamless Checkout:</strong> Shopping should be simple. Add items to your cart and navigate a smooth, secure checkout process for a hassle-free buying experience.
 - <strong>Customer-Driven Decisions:</strong> Your voice matters! Share your experience by leaving product reviews and ratings. This valuable feedback helps build trust and guides other customers towards the best products for them.
 - <strong>Optimised for All Devices:</strong> Experience PureProteinPowders anywhere, anytime. Our user-friendly and responsive design ensures a consistent and enjoyable experience on desktops, tablets, and mobile phones.
+</details>
 
 ## Design Choices
 <details>
@@ -168,16 +170,61 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 </details>
 <hr>
 
+
+## Entity Relationship Diagram
+<details>
+<summary>Entity Relationship Diagram</summary>
+  
+1. **Blog Model:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+
+2. **Blog comments:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+
+3. **Wishlist:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+</details>
+<hr>
+
+## Database Choice
+To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL as the project's database. This choice aligns perfectly with Heroku's recommendations for supported and optimized databases.
+
+</details>
+<hr>
+
+### CRUD Diagrams
+<details>
+<summary>CRUD Diagrams</summary>
+
+- **Bag:**
+  
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+
+- **Products:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+
+- **Reviews:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
+</details>
+<hr>
+
 # Agile
 <details>
 <summary>Agile details<summary>
-## My user stories template
 
+## My user stories template
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
 
 </details>
 
 # Website Features
+<details>
+
 ### The features
 **Nav Bar:**
 <details>
@@ -385,6 +432,7 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 
 </details>
 <hr>
+</details>
 
 ## Testing
 <details>

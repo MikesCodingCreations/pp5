@@ -201,6 +201,18 @@ input[name="q"]::placeholder {
 }
 
 
+#mc_embed_signup {
+    background-color:#fff;
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 400px;
+}
+
+.mc-field-group {
+    padding-bottom: 0;
+}
+
+
 /* -------------------------------- Media Queries */
 
 @media (min-width: 1200px) {

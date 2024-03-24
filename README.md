@@ -139,39 +139,43 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
   
 **Home Page:**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Product List:**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Product Details:**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Blog:**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Post Detail:**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Post Detail(with like - mobile view):**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 **Product List (Tablet View):**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
 
 </details>
 <hr>
 
 # Agile
+<details>
+<summary>Agile details<summary>
 ## My user stories template
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
+
+</details>
 
 # Website Features
 ### The features
@@ -181,41 +185,41 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 
 - **Desktop Nav Bar**
   
-  ![image]()
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
   
 - **Tablet Nav Bar**
   
-  ![image]()
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr> 
 
 - **Mobile Nav Bar**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
 - **Logged in as admin**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
 - **User not logged in**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
 - **Logged in but as a regular user**
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -230,15 +234,15 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>Login / Logout / Register</summary>
   
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -254,11 +258,11 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>All Products and Product details</summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -275,11 +279,11 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>The Basket & Checkout section</summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -295,11 +299,11 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>The Profile Sectopm</summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -315,11 +319,11 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>The Blog</summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 <hr>
 
@@ -336,7 +340,7 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>The Footer</summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 **Stay Connected & Explore More:**
 
@@ -352,19 +356,19 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary>Admin Only views </summary>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 - The products page empowers admins to easily update or remove products as needed.
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 - Admins can add new products through the product management interface by filling out a form with relevant information.
 
 <hr>
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 - Admins can manage reviews, including editing or deleting them when necessary.
 
@@ -377,7 +381,7 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 
 - **Error Page:**
   
-  ![image]()
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 </details>
 <hr>

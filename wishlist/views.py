@@ -3,47 +3,27 @@ from django.contrib import messages
 
 from products.models import Product
 
+# Create your views here.
 
 def view_wishlist(request):
-    return render(request, 'wishlist.html')
+  wishlist = request.session.get('wishlist', {}) 
+  return render(request, 'wishlist.html', context={'wishlist': wishlist})
+
 
 def add_to_wishlist(request, item_id):
 
-    product = get_object_or_404(Product, pk=item_id)
+    product = get_object_or_404(Product, pk=item_id)    
+    quantity = int(request.POST.get('quantity', 1))
     redirect_url = request.POST.get('redirect_url')
     size = None
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     wishlist = request.session.get('wishlist', {})
 
-    quantity = 1
-
-    if size:
-        if not wishlist:  # Check if wishlist is empty (None)
-            wishlist = {}  # Initialize it as an empty dictionary
-
-        wishlist.setdefault(item_id, {})  # Now it's safe to use setdefault
-        wishlist[item_id]['items_by_size'].setdefault(size, 0)  
-        wishlist[item_id]['items_by_size'][size] += quantity
-        messages.success(request, f'Updated size {size.upper()} quantity to {wishlist[item_id]["items_by_size"][size]}')
-    else:
-        if not wishlist:  # Check if wishlist is empty (None)
-            wishlist = {}  # Initialize it as an empty dictionary
-
-        wishlist.setdefault(item_id, {})  # Now it's safe to use setdefault
-        wishlist[item_id].setdefault('quantity', 0)  
-        wishlist[item_id]['quantity'] += quantity
-        messages.success(request, f'Added {product.name} to your wishlist')
-
+    
     request.session['wishlist'] = wishlist
-    return render(request, 'wishlist.html', context={'wishlist': wishlist})
-
-
-    if 'wishlist' in request.session:
-        return redirect('view_wishlist')
-    else:
-        messages.warning(request, 'An error occurred. Please try adding the item again.')
-        return redirect(redirect_url)
+    return redirect(redirect_url)
+    
 
 def adjust_wishlist(request, item_id):
 

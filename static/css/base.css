@@ -1,15 +1,11 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 html {
     height: 100%;
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     height: calc(100vh - 164px);
-    padding-top: 25px;
     font-family: 'Lato';
 }
 
@@ -369,9 +365,6 @@ footer,
         width: 100%;
     }
     
-    .header-container {
-        padding-top: 116px;
-    }
 
     body {
         height: calc(100vh - 116px);
@@ -451,7 +444,10 @@ footer,
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-
+    .header-container {
+        padding-top: 116px;
+    }
 }
+
 
 

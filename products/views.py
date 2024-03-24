@@ -10,8 +10,6 @@ from .forms import ProductForm
 # Create your views here.
 
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
-
     products = Product.objects.all()
     query = None
     categories = None
@@ -72,7 +70,6 @@ def product_detail(request, product_id):
 
 @login_required
 def add_a_product(request):
-    """ Add product to the store """
     if not request.user.is_superuser:
         messages.error(request, 'Error, only store owners have access to this.')
         return redirect(reverse('a_home'))
@@ -97,7 +94,6 @@ def add_a_product(request):
 
 @login_required
 def edit_a_product(request, product_id):
-    """Edit a store product"""
     if not request.user.is_superuser:
         messages.error(request, 'Error, only store owners have access to this.')
         return redirect(reverse('a_home'))
@@ -125,7 +121,6 @@ def edit_a_product(request, product_id):
 
 @login_required
 def delete_a_product(request, product_id):
-    """Delete a store product"""
     if not request.user.is_superuser:
         messages.error(request, 'Error, only store owners have access to this.')
         return redirect(reverse('a_home'))

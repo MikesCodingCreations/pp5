@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    background: url('/media/hero-img-two.jpg') no-repeat center fixed;
     max-width: 100%;
     overflow-x: hidden;
     height: calc(100vh - 164px);

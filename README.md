@@ -1,5 +1,5 @@
 # Pure Protein Powders
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/site.png)
 
 ## Protein Powder and Apparel E-commerce Store.
 > E-commerce website that provide a high quality protein products from whey/clear protein powder, protein snacka and drinks to gym clothing.
@@ -392,12 +392,14 @@ See the [TESTING.MD](TESTING.md) file for detailed test results
 ## The Business Model
 ### Facebook Business Page
 <details>
-![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage1.png)
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/facebook%20page%201.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage2.png)
-![image](https://github.com/MikesCodingCreations/pp5/blob/13bcf90a04580ed1e39136ebfae60e8da98dbd8e/media/facebookpage3.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/facebook%20page%202.png)
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/facebook%20page%203.png)
 
 - **Join the Conversation:** We love hearing from you! Participate in discussions, ask questions, and share your thoughts – we're here to listen and engage with our amazing community.
 - **Stay in the Know:** Get the scoop on exciting product launches, restocks, and upcoming collections before anyone else!
@@ -416,8 +418,8 @@ See the [TESTING.MD](TESTING.md) file for detailed test results
 - **Build a Lasting Relationship:** By subscribing, you'll become part of our valued community. We'll continue to provide informative and engaging content tailored to your interests.
 
 ### Links
-- [PureProteinPowders Business Facebook Page]()
-- [PureProteinPowders Newsletter Signup]() Stay in the loop! Sign up for our newsletter at the bottom of our website.
+- [PureProteinPowders Business Facebook Page](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/facebook%20page%201.png)
+- [PureProteinPowders Newsletter Signup](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/mailchimp.png) Stay in the loop! Sign up for our newsletter at the bottom of our website.
 </details>
 
 <hr> 
@@ -470,7 +472,7 @@ Through SEO strategy, I boosted the website's search engine visibility. This inv
 - Python
 - Stripe
 - W3 HTML
-<details>
+</details>
 <hr>
 
 

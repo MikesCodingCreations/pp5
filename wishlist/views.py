@@ -14,33 +14,18 @@ def view_wishlist(request):
     return render(request, 'wishlist.html', context)
 
 def add_to_wishlist(request, item_id):
-    product = get_object_or_404(Product, pk=item_id)    
-    redirect_url = request.POST.get('redirect_url')
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
-    wishlist = request.session.get('wishlist', {})
+  product = get_object_or_404(Product, pk=item_id)
+  size = request.POST.get('product_size', None)
 
-    if size:
-        if item_id in list(wishlist.keys()):
-            if size in wishlist[item_id]['items_by_size'].keys():
-                wishlist[item_id]['items_by_size'][size] 
-                messages.success(request, f'Updated size {size.upper()} quantity to {wishlist[item_id]["items_by_size"][size]}')
-            else:
-                messages.success(request, f'Added size {size.upper()} {product.name} to your wishlist')
-        else:
-            wishlist[item_id] = {'items_by_size': {size: size}}
-            messages.success(request, f'Added size {size.upper()} {product.name} to your wishlist')
-    else:
-        if item_id in list(wishlist.keys()):
-            wishlist[item_id] 
-            messages.success(request, f'Updated {product.name} quantity to {wishlist[item_id]}')
-        else:
+  if not request.user.is_authenticated:
+      messages.warning(request, 'You need to be logged in to add to wishlist')
+      return redirect('login')
 
-            messages.success(request, f'Added {product.name} to your wishlist')
+  WishItem.objects.create(user=request.user, product=product, size=size)
+  messages.success(request, f'Added {product.name} to your wishlist')
 
-    request.session['wishlist'] = wishlist
-    return redirect(redirect_url)
+  return redirect(reverse('view_wishlist'))
+
 
 def remove_from_wishlist(request, item_id):
 

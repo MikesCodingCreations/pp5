@@ -24,10 +24,19 @@
                             <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ product.name }}">
                         </a>
                     {% endif %}
+                    {% if request.user.is_superuser %}
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <a href="{% url 'edit_a_product' product.id %}" class="text-success btn" style="background-color: black;">Edit</a>
+                        <a href="{% url 'delete_a_product' product.id %}" class="text-danger btn" style="background-color: black;">Delete</a>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
+
+
                     <p class="mb-0">{{ product.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}
@@ -42,20 +51,15 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
-                    {% if request.user.is_superuser %}
-                    <div class="d-flex justify-content-between pt-2">
-                        <a href="{% url 'edit_a_product' product.id %}" class="text-success btn" style="background-color: black;">Edit</a>
-                        <a href="{% url 'delete_a_product' product.id %}" class="text-danger btn" style="background-color: black;">Delete</a>
-                    </div>
-                    {% endif %}`
-                    <p class="mt-3">{{ product.description }}</p>
+
+                    <p class="mt-1">{{ product.description }}</p>
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
                             {% with product.has_sizes as s %}
                             {% if s %}
                                 <div class="col-12">
-                                    <p><strong>Size:</strong></p>
+                                    <p class="mb-1"><strong >Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
                                         <option value="xs">XXS</option>
                                         <option value="xs">XS</option>
@@ -68,8 +72,8 @@
                                 </div>
                             {% endif %}
                             <div class="col-12">
-                                <p class="mt-3"><strong>Quantity:</strong></p>
-                                <div class="form-group w-50">
+                                <p class="mt-2 mb-1"><strong>Quantity:</strong></p>
+                                <div class="mb-1 w-50">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <button class="decrement-qty btn btn-black rounded-0" 
@@ -96,13 +100,11 @@
                             </div>
 
                             <div class="col{% if s %}-12 mt-1{% endif %}">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
-                                    <span class="icon">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
+                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-1">
+                                    <span class="icon"><i class="fas fa-chevron-left"></i></span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-2" value="Add to Bag">
+                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-1" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
@@ -116,9 +118,9 @@
                             
                           {% with product.has_sizes as s %}
                             {% if s %}
-                            <div class="col-12 pt-3">
-                                <p><strong>Wishlist Size selection:</strong></p>
-                                <select class="form-control rounded-0 w-50 ml-1" name="product_size" id="id_product_size">
+                            <div class="col-12 pt-2">
+                                <p class="my-1"><strong>Wishlist Size selection:</strong></p>
+                                <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
                                   <option value="xs">XXS</option>
                                   <option value="xs">XS</option>
                                   <option value="s">S</option>
@@ -129,7 +131,7 @@
                                 </select>
                             {% endif %}
 
-                              <input type="submit" class="btn shop-now-button mt-3 ml-1 rounded-0" value="Add to Wishlist">
+                              <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-2" value="Add to Wishlist">
 
                             </div>
                           {% endwith %}

@@ -335,16 +335,6 @@ footer,
     .message-container {
         right: 200px;
     }
-
-    #mc_embed_signup {
-        width: 80%;
-    }
-
-    #mc_embed_shell {
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-    }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -450,11 +440,23 @@ footer,
         justify-content: center;
         align-items: center;
     }
+
+    #mc_embed_signup {
+        width: 80%;
+    }
+
+    #mc_embed_shell {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
-
+@media (min-width: 1200px) {
+    .footer-content {
+        width: 100%;
+    }
 }
 
 

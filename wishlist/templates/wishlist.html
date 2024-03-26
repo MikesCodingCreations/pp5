@@ -23,6 +23,7 @@
 
         <div class="row">
             <div class="col">
+                {% if wish_items.exists %}
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
@@ -30,6 +31,7 @@
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
                                     <th scope="col">Price</th>
+                                    <th scope="col">Remove</th>
                                 </tr>
                             </thead>
 
@@ -44,10 +46,22 @@
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price }}</p>
                                     </td>
+                                    <td class="py-3 text-left"> <form action="{% url 'remove_from_wishlist' item.product.id %}" method="post">
+                                        {% csrf_token %}
+                                        <button type="submit" class="btn btn-sm btn-danger">
+                                          <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                      </form>
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </table>
                     </div>
+                {% else %}
+                <div class="alert alert-info">
+                    No items in wishlist, keep shopping to add more!
+                </div>
+                {% endif %}
 
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">

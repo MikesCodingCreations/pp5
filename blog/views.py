@@ -21,20 +21,18 @@ class PostDetail(View):
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
         liked = False
-        if post.likes.filter(id=self.request.user.id).exists():
+        if post.likes.filter(id=request.user.id).exists():
             liked = True
 
-        return render(
-            request,
-            "post_detail.html",
-            {
-                "post": post,
-                "comments": comments,
-                "commented": False,
-                "liked": liked,
-                "comment_form": CommentForm()
-            },
-        )
+        context = {
+            "post": post,
+            "comments": comments,  # Pass the comments queryset to the context
+            "commented": False,
+            "liked": liked,
+            "comment_form": CommentForm(),
+        }
+
+        return render(request, "post_detail.html", context)
     
     def post(self, request, slug, *args, **kwargs):
 
@@ -81,7 +79,6 @@ class PostLike(View):
 
 @login_required
 def delete_post(request, id):
-    """ Delete a blog post """
 
     post = get_object_or_404(Post, id=id)
     post.delete()
@@ -96,7 +93,6 @@ def delete_post(request, id):
 
 @login_required
 def add_post(request):
-    """ Add a Blog post """
     if not request.user.is_superuser:
         messages.error(request, "Only store owners can access this.")
         return redirect(reverse('blog'))
@@ -121,3 +117,16 @@ def add_post(request):
     }
 
     return render(request, template, context)
+
+@login_required
+def delete_comment(request, post_slug, comment_id):
+    post = get_object_or_404(Post, slug=post_slug)
+    comment = get_object_or_404(Comment, post=post, id=comment_id)
+
+    if comment.name == request.user:
+        comment.delete()
+        messages.success(request, 'Comment deleted successfully!')
+        return redirect('post_detail', slug=post_slug)
+    else:
+        messages.error(request, 'You are not authorized to delete this comment.')
+        return redirect('post_detail', slug=post_slug)

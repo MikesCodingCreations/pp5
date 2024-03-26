@@ -9,7 +9,7 @@ def view_wishlist(request):
   wish_items = WishItem.objects.filter(user=request.user)
   context = {
       'wish_items': wish_items,
-      'has_wishlist_items': wish_items.exists(),  # Check if any items exist
+      'has_wishlist_items': wish_items.exists(), 
   }
 
   return render(request, 'wishlist.html', context)

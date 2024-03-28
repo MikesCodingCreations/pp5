@@ -514,35 +514,82 @@ Through SEO strategy, I boosted the website's search engine visibility. This inv
 
 **Content Harmony:** I strategically weaved my chosen keywords throughout various content elements, including headings (H1 tags), meta data, product names, and descriptions.
 **User-Centric Approach:** This integration ensures my content remains not only search-engine friendly but also informative and valuable to my target audience.
+
+**Sitemap**
+With a sitemap in place, search engines like Google will be able to more easily discover and index the website's content, improving its search visibility.
+
+- [sitemap.xml](https://github.com/MikesCodingCreations/pp5/blob/main/sitemap.xml)
+
+**Robots.txt**
+To ensure Google searches only the most relevant pages, I've implemented access controls, allowing search engines to crawl only specific sections of the website.
+
+- [sitemap.xml](https://github.com/MikesCodingCreations/pp5/blob/main/robots.txt)
+
 </details>
 
 ## Technologies Used
 <details>
 <summary>This website is powered by a combination of technologies.</summary>
-- AWS Amazon
-- Balsamiq
-- Bootstrap
-- Django
-- Favicon
-- Font Awesome
-- Git / Github
-- Gitpod
-- Google Fonts
-- Heroku
-- JavaScript
-- PostgreSQL
-- Python
-- Stripe
-- W3 HTML
+
+* AWS Amazon
+* Balsamiq
+* Bootstrap
+* Django
+* Favicon
+* Font Awesome
+* Git / Github
+* Gitpod
+* Google Fonts
+* Heroku
+* JavaScript
+* Lucidchart
+* PostgreSQL
+* Python
+* Stripe
+* W3 HTML
+
 </details>
 <hr>
 
+## Deployment
+<details>
 
+<summary>Production Deployment</summary>
+To deploy your application on Heroku, follow the steps bellow:
 
+**Sign Up or Sign In:**
+Head to the Heroku website (https://signup.heroku.com/) and create a free account if you don't have one already. Existing users can log in.
 
+**Create a New App:**
+- Once logged in, click "New" and choose "Create new app."
+- Give your app a unique name (this will be part of the app's URL).
+- Select the region closest to you for optimal performance.
 
+**Connect to Your Git Repository:**
+- In your app's dashboard, navigate to the "Deploy" tab.
+- Choose your preferred deployment method based on your Git provider (e.g., GitHub).
+- Connect your app to the corresponding repository and branch.
 
+**Set Up Environment Variables:**
+- Under the "Settings" tab, locate the "Config Vars" section.
+- Define any environment variables your application needs.
+- Click "Reveal Config Vars" to add key-value pairs for your variables.
 
+**Deploy Your App:**
+- In the "Deploy" tab, scroll down to "Manual Deploy".
+- Click "Deploy Branch" to initiate the deployment.
+- Heroku will build and deploy your app using the code in your connected Git repository.
+
+**Monitor the Deployment:**
+- Once complete, review the deployment logs in the "Activity" tab to ensure everything ran smoothly.
+- These logs can help you troubleshoot any issues that may have occurred.
+
+**Access Your Live App:**
+- After a successful deployment, visit your app's URL provided in the dashboard.
+- Click "Open App" or paste the URL into your browser to see your app live!
+</details>
+
+<hr>
 
 ## Credits
 <detail>

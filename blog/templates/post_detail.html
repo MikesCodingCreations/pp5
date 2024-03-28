@@ -76,7 +76,6 @@
         <div class="row">
             <div class="col-md-6 card mb-2  mt-3 ">
                 <h3 class="pt-2 main-colorr">Comments:</h3>
-                <div class="">
                     {% for comment in comments %}
                     <div class="comments">
                         <p class="font-weight-bold mb-0">
@@ -85,13 +84,12 @@
                         {{ comment.body }}
                         <p class="text-muted ml-3 mt-1">
                             {{ comment.created_on }}
-                            {% if comment.author == request.user %}
+                            {% if user.is_authenticated %}
                                 <a href="{% url 'delete_comment' post.slug comment.id %}" class="text-danger ml-2">Delete</a>
                             {% endif %}
                         </p>
                     </div>
                 {% endfor %}
-                </div>
             </div>
             <div class="col-md-6 card mb-4  mt-3 ">
                 <div class="card-body">

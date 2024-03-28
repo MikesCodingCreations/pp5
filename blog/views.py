@@ -123,7 +123,7 @@ def delete_comment(request, post_slug, comment_id):
     post = get_object_or_404(Post, slug=post_slug)
     comment = get_object_or_404(Comment, post=post, id=comment_id)
 
-    if comment.name == request.user:
+    if comment.name == request.user.username:
         comment.delete()
         messages.success(request, 'Comment deleted successfully!')
         return redirect('post_detail', slug=post_slug)

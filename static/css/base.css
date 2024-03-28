@@ -109,6 +109,10 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+.fa-arrow-up {
+    color: rgb(70, 255, 92);
+}
+
 .btt-link,
 .update-link,
 .remove-item {

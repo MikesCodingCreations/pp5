@@ -42,7 +42,7 @@
                                 <p class="card-text text-muted h6">{{ post.created_on}}</p>
                                 {% if request.user.is_superuser %}
                                 <div class="super-user-button-container">
-                                    <a href="{% url 'delete_post' post.id %}" class="btn shop-now-button">Delete post</a>
+                                    <a href="{% url 'delete_post' post.id %}" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);">Delete post</a>
                                 </div>
                                 {% endif %}
                             </div>
@@ -60,10 +60,10 @@
         <nav aria-label="Page navigation mb-5">
             <ul class="pagination justify-content-center">
                 {% if page_obj.has_previous %}
-                <li><a href="?page={{ page_obj.previous_page_number }}" class="btn shop-now-button">&laquo; PREV </a></li>
+                <li><a href="?page={{ page_obj.previous_page_number }}" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);">&laquo; PREV </a></li>
                 {% endif %}
                 {% if page_obj.has_next %}
-                <li><a href="?page={{ page_obj.next_page_number }}" class="btn shop-now-button"> NEXT &raquo;</a></li>
+                <li><a href="?page={{ page_obj.next_page_number }}" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);"> NEXT &raquo;</a></li>
                 {% endif %}
             </ul>
         </nav>

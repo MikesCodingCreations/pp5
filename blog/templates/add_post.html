@@ -16,6 +16,9 @@
 {% endblock %}
 
 {% block content %}
+<body style="background: none;">
+    
+
     <div class="container page-content">
         <div class="row">
             <div class="col-12 col-md-12">
@@ -24,13 +27,14 @@
                     {{ form | crispy }}
                     <br>
                     <div class="text-left">
-                        <a href="{% url 'blog' %}" class="btn shop-now-button menu-mng-cancel-btn">Cancel</a>
-                        <button class="btn shop-now-button" type="submit">Add Blog Post</button>
+                        <a href="{% url 'blog' %}" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);">Cancel</a>
+                        <button class="text-success btn" style="border: 1px solid rgb(70, 255, 92);" type="submit">Add Blog Post</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+</body>
     <script src="{% static 'summernote/dist/summernote.js' %}"></script>
     <script>
         $(document).ready(function() {

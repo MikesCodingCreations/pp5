@@ -199,10 +199,10 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>Agile details<summary>
 
-## My user stories template
+My user stories template
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
 
-## Agile Project Board
+Agile Project Board
 I prioritised and tracked my user stories in a Gitpod project board. Here's the link:
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agileprojects.png)

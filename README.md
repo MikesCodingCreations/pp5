@@ -202,6 +202,11 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 ## My user stories template
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
 
+## Agile Project Board
+I prioritised and tracked my user stories in a Gitpod project board. Here's the link:
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agileprojects.png)
+
 </details>
 
 # Website Features
@@ -214,31 +219,31 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 
 - **Desktop Nav Bar**
   
-  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-nav.png)
 
 <hr>
   
 - **Tablet Nav Bar**
   
-  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/tablet-nav.png)
 
 <hr> 
 
 - **Mobile Nav Bar**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/mobile-nav.png)
 
 <hr>
 
-- **Logged in as admin**
+- **Logged in but as a admin user**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-nav-admin-loggedin.png)
 
 <hr>
 
 - **Logged in but as a regular user**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-nav-regular-userloggedin.png)
 
 <hr>
 
@@ -253,15 +258,15 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>Login / Logout / Register</summary>
   
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-login.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-logout.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/desktop-register.png)
 
 <hr>
 
@@ -277,11 +282,11 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>All Products and Product details</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/all-products.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/product-details.png)
 
 <hr>
 
@@ -298,11 +303,11 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>The Basket & Checkout section</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/basket.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/checkout.png)
 
 <hr>
 
@@ -318,11 +323,11 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>The Profile Section</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/profile.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/profile2.png)
 
 <hr>
 
@@ -338,11 +343,15 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>The Blog</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/blog.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/blog-detail.png)
+
+<hr>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/comments.png)
 
 <hr>
 
@@ -359,11 +368,11 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>The Wishlist</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/wishlist1.png)
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/wishlist2.png)
 
 <hr>
 
@@ -379,7 +388,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>The Footer</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/footer.png)
 
 **Stay Connected & Explore More:**
 
@@ -395,20 +404,31 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>Admin Only views </summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/admin-product-view.png)
+
+<hr>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/admin-product-detail-view.png)
 
 - The products page empowers admins to easily update or remove products as needed.
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/admin-product-management.png)
 
 - Admins can add new products through the product management interface by filling out a form with relevant information.
 
 <hr>
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/admin-blog-view.png)
 
+- Admins can see an additional button when logged in under each blog post allowing them to delete any post.
+
+<hr>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/admin-blog-management.png)
+
+- Admins can add new blog posts at any time via the blog management page.
 
 </details>
 <hr>
@@ -429,7 +449,6 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 See the [TESTING.MD](TESTING.md) file for detailed test results
 </details>
-
 <hr> 
 
 ## The Business Model
@@ -451,7 +470,7 @@ See the [TESTING.MD](TESTING.md) file for detailed test results
 
 ### Newsletter Signup
 
-![image]()
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/mailchimp.png)
 
 ### Grow with Us:  Our newsletter is your gateway to stay connected and informed!
 

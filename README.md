@@ -130,7 +130,7 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 ### Favicon
 <strong>A Tiny Icon, Big Impact:</strong>  We sweat the small stuff too! Our website favicon cleverly uses three interlocking **Ps** to form a powerful symbol. It's a subtle nod to our brand name, Pure Protein Powders, instantly recognisable to those familiar with our mission.
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/static/css/favicon/favicon-32x32.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/static/css/favicon/apple-touch-icon.png)
 
 </details>
 <hr>
@@ -195,24 +195,6 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 </details>
 <hr>
 
-### CRUD Diagrams
-<details>
-<summary>CRUD Diagrams</summary>
-
-- **Bag:**
-  
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-
-- **Products:**
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-
-- **Reviews:**
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-</details>
-<hr>
-
 # Agile
 <details>
 <summary>Agile details<summary>
@@ -248,17 +230,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
-
-<hr>
-
 - **Logged in as admin**
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
-
-<hr>
-
-- **User not logged in**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
@@ -344,7 +316,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 
 **Profile:**
 <details>
-<summary>The Profile Sectopm</summary>
+<summary>The Profile Section</summary>
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
@@ -383,6 +355,26 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 </details>
 <hr>
 
+**Wishlist:**
+<details>
+<summary>The Wishlist</summary>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+
+<hr>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+
+<hr>
+
+**Wishlist:** Adding items to your wishlist has never been easier!
+
+- **Like it now? Save for later:** Interested in an item but cannot purchase now? Simply add it to your wishlist!
+- **Never loose your interest:** The wishlist functionality allows you to log back in at any time and find items you have previous been interested in.
+
+</details>
+<hr>
+
 **Footer:**
 <details>
 <summary>The Footer</summary>
@@ -404,6 +396,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <summary>Admin Only views </summary>
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
 - The products page empowers admins to easily update or remove products as needed.
 
@@ -415,9 +408,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 
 <hr>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
 
-- Admins can manage reviews, including editing or deleting them when necessary.
 
 </details>
 <hr>

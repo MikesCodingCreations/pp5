@@ -141,32 +141,49 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
   
 **Home Page:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/1.png)
+
+**Home Page - Mobile View:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/12.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/13.png)
 
 **Product List:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/2.png)
 
 **Product Details:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/3.png)
+
+**Product Management:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/4.png)
 
 **Blog:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/5.png)
 
-**Post Detail:**
+**Blog Detail:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/6.png)
 
-**Post Detail(with like - mobile view):**
+**Blog Management:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/7.png)
 
-**Product List (Tablet View):**
+**Profile:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/IMG.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/8.png)
 
+**Shopping Bag*:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/9.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/10.png)
+
+**Wishlist*:**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/11.png)
 </details>
 <hr>
 

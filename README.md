@@ -146,6 +146,7 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 **Home Page - Mobile View:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/12.png)
+<hr>
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/13.png)
 
 **Product List:**
@@ -176,12 +177,13 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/8.png)
 
-**Shopping Bag*:**
+**Shopping Bag:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/9.png)
+<hr>
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/10.png)
 
-**Wishlist*:**
+**Wishlist:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/11.png)
 </details>
@@ -212,7 +214,7 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 </details>
 <hr>
 
-# Agile
+## Agile
 <details>
 <summary>Agile details<summary>
 

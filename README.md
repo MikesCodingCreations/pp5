@@ -208,6 +208,16 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 </details>
 <hr>
 
+## ERC Diagram's
+<details>
+<summary> Below are two ERC Diagrams. One dipicting the Blog and Blog comments models & one for the Wishlist model.</summary>
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/blogerc.png)
+<hr>
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/wishlisterc.png)
+
+</details>
+
 ## Database Choice
 To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL as the project's database. This choice aligns perfectly with Heroku's recommendations for supported and optimized databases.
 

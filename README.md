@@ -212,9 +212,9 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <details>
 <summary> Below are two ERC Diagrams. One dipicting the Blog and Blog comments models & one for the Wishlist model.</summary>
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/blogerc.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/blogERC.png)
 <hr>
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/wishlisterc.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/wishlistERC.png)
 
 </details>
 

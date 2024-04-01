@@ -221,7 +221,6 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 ## Database Choice
 To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL as the project's database. This choice aligns perfectly with Heroku's recommendations for supported and optimized databases.
 
-</details>
 <hr>
 
 ## Agile

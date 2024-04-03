@@ -286,7 +286,96 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 <hr>
 
-**TEST Case 000: XXX**
+**TEST Case 12: Blog**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. Click on "Expert Advice" in the navbar, then select "Blog".
+2. Blog Post Display
+3. Verify blog posts are displayed with:
+    - Images
+    - Likes and comments
+    - Date of the post
+    - Author's name
+    - Blog content
+4. Click on the title link of a specific blog post.
+5.  Click on the "NEXT" button.
+6. Click on the "PREV" button.
+
+**Expected Outcome:**
+- The user is redirected to the blog page.
+- All blog posts are displayed correctly with these elements.
+- The user is redirected to the detail page for that specific blog post.
+- The user is navigated to the next page of blog posts.
+- The user is navigated back to the previous page of blog posts.
+
+**- I verify the expected outcomes all take place.**
+
+<hr>
+
+**TEST Case 13: Blog details**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. On the blog page, click on the title link of a specific blog post.
+2. Confirm that the following details are displayed correctly:
+    - Image
+    - Title
+    - Author's Name
+    - Date of the Post
+    - Content
+    - Likes & comments
+3. Click on the "BACK TO BLOG" button and verify it successfully redirects you back to the blog post page.
+
+**Expected Outcome:**
+- Clicking on a blog post title successfully redirects to the detail page.
+- All post details (image, title, author, date, content, and likes) are displayed accurately on the detail page.
+- Clicking the "BACK TO BLOG" button successfully navigates back to the blog post listing page.
+
+**- I verify the expected outcomes all take place.**
+
+<hr>
+
+**TEST Case 14: Blog Comments**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. On the blog page, click on any blog post
+2. Once on a specific blog, scroll down to the bottom of the page (just above the footer) for the comments section
+3. Verify that the comment section is being displayed
+4. Review the ability to add a comment (if logged in only)
+5. Confirm comment is posted
+6. Clarify the ability to delete a comment if it belongs to you.
+
+**Expected Outcome:**
+- User is directed to blog
+- Comment section is displayed
+- Previous comments from other users are displayed
+- If logged in, user can submit a comment
+- If comment belongs to user, user can delete it using the delete button
+
+**- I verify the expected outcomes all take place.**
+
+<hr>
+
+**TEST Case 15: XXX**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. 
+
+**Expected Outcome:**
+- 
+
+**- I verify the expected outcomes all take place.**
+
+<hr>
+
+**TEST Case 16: XXX**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 

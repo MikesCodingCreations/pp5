@@ -361,46 +361,56 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 <hr>
 
-**TEST Case 15: XXX**
+**TEST Case 15: Navbar - User Logged in**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
-**Steps:**
-1. 
+**Desktop/Laptop Steps:**
+
+1. Open the Pure Protein Powders website on your computer.
+2. Look for the navigation bar (NavBar) at the top or bottom of the page. It might contain links like "All Products," "Activewear," "Blog," and so on.
+3. Check if there are additional sections like "Account" options (including "My Profile" and "Logout").
+
+**Mobile/Tablet Steps:**
+
+1. Visit the Pure Protein Powders website on your mobile device or tablet.
+2. Locate the menu icon within the navigation bar. It's usually represented by lines or bars stacked together.
+3. Tap the menu icon to expand a list of options.
+4. Explore each menu option by tapping on them one by one.
 
 **Expected Outcome:**
-- 
+- The navigation bar (NavBar) offers clear categories for browsing the website, including "All Products," "Activewear," "Food,", "Protein", and "Blog".
+- For managing your account, the NavBar includes an "Account" section with options like "My Profile" and "Logout."
+- Clicking on these navigation links on a desktop or laptop will correctly redirect you to the intended webpages.
+- On mobile and tablet devices, the navigation bar utilizes a menu icon that expands to reveal these same options, ensuring smooth navigation regardless of the device you're using.
+- The navigation bar is responsive, meaning it adapts its layout to different screen sizes, guaranteeing a good user experience across devices.
 
 **- I verify the expected outcomes all take place.**
 
 <hr>
 
-**TEST Case 16: XXX**
+**TEST Case 16: Navbar - User Not Logged in**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
 **Steps:**
-1. 
+1. Open the PowerProtein website on a computer.
+2. Locate the navigation bar (NavBar) at the top or bottom of the page.
+3. Verify the presence of navigation links in the NavBar, such as "All Products," "Protein," "Nutrition," "Special Offers," "Expert Advice," "More" (potentially containing "Reviews"), and "Account" (including "My Profile" and "Logout").
+4. Access the PowerProtein website on a mobile device or tablet.
+5. Locate the menu icon within the navigation bar.
+6. Tap the menu icon on the mobile device to expand the navigation options.
+7. Click on each menu option (both on desktop and mobile) one by one.
 
 **Expected Outcome:**
-- 
+- All listed navigation links ("All Products," "Protein," etc.) should be clearly displayed within the NavBar on desktop devices.
+- The menu icon on mobile devices should function properly, expanding the navigation options upon tapping.
+- Clicking or tapping on each menu option should correctly redirect you to the intended webpage.
+- The navigation bar should function seamlessly across desktop, mobile, and tablet devices, adapting its layout to different screen sizes for optimal user experience.
 
 **- I verify the expected outcomes all take place.**
 
 <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Validation Testing
 <details>

@@ -61,7 +61,7 @@ body {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: white !important;
+    color: rgb(70, 255, 92) !important;
 }
 
 .shop-now-button:hover,
@@ -71,7 +71,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: rgb(70, 255, 92);
 }
 
 .text-black {
@@ -326,6 +326,12 @@ footer,
 /* -------------------------------- Media Queries */
 
 /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 400px) {
+    .navbar {
+        flex-wrap: nowrap;
+    }
+}
+
 @media (max-width: 575.98px) {
     #landing-logo {
         font-size: 2.5rem;

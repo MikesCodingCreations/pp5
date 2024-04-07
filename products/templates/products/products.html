@@ -84,8 +84,8 @@
                                             {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <div class="d-flex justify-content-between pt-2">
-                                                    <a href="{% url 'edit_a_product' product.id %}" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);">Edit</a>
-                                                    <a href="{% url 'delete_a_product' product.id %}" class="text-danger btn" style="border: 1px solid rgb(70, 255, 92);">Delete</a>
+                                                    <a href="{% url 'edit_a_product' product.id %}" class="btn btn-black rounded-0">Edit</a>
+                                                    <a href="{% url 'delete_a_product' product.id %}" class="btn btn-outline-black rounded-0">Delete</a>
                                                 </div>
                                             {% endif %}
                                         </div>

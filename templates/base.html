@@ -5,8 +5,8 @@
   <head>
 
     {% block meta %}
+      <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description"
       content="Pure Protein Powders, the words purest quality protein curently available. 
@@ -71,7 +71,7 @@
             </div>
           </form>
         </div>
-        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0" style="display: flex; justify-content: center;">
           <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <li class="list-inline-item dropdown">
               <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -94,6 +94,8 @@
                 {% endif %}
               </div>
             </li>
+          </ul>
+          <ul>
             <li class="list-inline-item">
               <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                 <div class="text-center">
@@ -108,7 +110,9 @@
                 </div>
               </a>
             </li>
-            {% if request.user.is_authenticated %}
+          </ul>
+          {% if request.user.is_authenticated %}
+          <ul>
             <li class="list-inline-item">
               <a class="text-black nav-link" href="{% url 'view_wishlist' %}">
                 <div class="text-center">
@@ -117,8 +121,8 @@
                 </div>
               </a>
             </li>
-            {% endif %}
           </ul>
+          {% endif %}
         </div>
       </div>
       <div class="row bg-white">

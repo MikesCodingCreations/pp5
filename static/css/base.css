@@ -4,7 +4,8 @@ html {
     height: 100%;
 }
 
-body {
+body,
+#home-body {
     background: url('/media/hero-img-two.jpg') no-repeat center fixed;
     max-width: 100%;
     overflow-x: hidden;

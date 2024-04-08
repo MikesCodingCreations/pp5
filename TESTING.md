@@ -39,6 +39,8 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
 **TEST Case 2: Registration**
@@ -62,6 +64,8 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
 **TEST Case 3: Login**
@@ -83,6 +87,8 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
 **TEST Case 4: Products**
@@ -101,6 +107,8 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 - Throughout this process, there should be no errors reported in the browser console.
 
 **- I verify the expected outcomes all take place.**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
 
 <hr>
 
@@ -122,13 +130,65 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 5. Shopping Spree Continues: Click the "KEEP SHOPPING" button and confirm that you're redirected back to the main Products page, ready to browse further.
 
 **Expected Outcome:**
-
+- Clicking a product image should flawlessly take the user to a dedicated product details page.
+- The product details page should accurately display all the following information:
+    - Name: A clear and unambiguous name that identifies the product.
+    - Size (if applicable): If the product comes in different sizes, the size options should be displayed clearly.
+    - Category: The category the product belongs to should be accurately identified (e.g., Whey Protein, Vegan Protein, Accessories).
+    - Rating: Any user ratings or review stars associated with the product should be visible.
+    - Description: A detailed description explaining the product's features and benefits should be present.
+    - Quantity Control: Clicking the "increment" button should increase the desired quantity by one unit, and the "decrement" button should decrease it by one unit. Both buttons should function properly.
+    - Add to Bag: Clicking the "ADD TO BAG" button should initiate the process of adding the chosen product to the user's shopping bag.
+- Upon successfully adding the product, a clear message should appear on the screen, confirming the addition. This message should inform the user that the product has been placed in their shopping bag.
+- Shopping Spree Continues: Clicking the "KEEP SHOPPING" button should take the user back to the main Products page. This allows them to continue browsing and adding more items to their shopping cart.
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 6: Wishlist**
+**TEST Case 6: Product Creation - Admin**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. Ensure you are logged in as an Admin user.
+2. Navigate to the 'Product creation page' via the admin only menu dropdown.
+3. Select a category for the new product from either of the following:
+    - Mens clothing
+    - Womens clothing
+    - Accessories
+    - Bars
+    - Drinks
+    - Snacks
+    - Whey protein
+    - Clear protein
+    - Vegan protein
+4. Add an sku (optional - recommended).
+5. Add a product name (must be unique).
+6. Add a description.
+7. Decide if product has sizes.
+8. Add the price.
+9. Add a rating (optional - recommended).
+10. Add an image by selecting the 'Add image' button.
+11. Submit the form by clicking 'Add product'.
+12. Product is successfully added to list of other products.
+
+**Expected Outcome:**
+- You are successfully taken to the product creation page.
+- The form has all the neccessary fields available to fill out / choose from.
+- Upon submittion, you are redirected to the product detail page where you can see the product you have added.
+- Form is not submitted, error messages displayed if not all mandatory (*) fields field in.
+- Clicking on the cancel button takes you back to the product page.
+
+**- I verify the expected outcomes all take place.**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
+<hr>
+
+**TEST Case 7: Wishlist**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -149,9 +209,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 7: Bag**
+**TEST Case 8: Bag**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -180,9 +242,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 8: Checkout**
+**TEST Case 9: Checkout**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -214,9 +278,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 9: Checkout success**
+**TEST Case 10: Checkout success**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -243,9 +309,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 10: Logged In User**
+**TEST Case 11: Logged In User**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -266,9 +334,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 11: Logout**
+**TEST Case 12: Logout**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -284,9 +354,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 12: Blog**
+**TEST Case 13: Blog**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -312,9 +384,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 13: Blog details**
+**TEST Case 14: Blog details**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -336,9 +410,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 14: Blog Comments**
+**TEST Case 15: Blog Comments**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -359,9 +435,36 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 15: Navbar - User Logged in**
+**TEST Case 16: Blog Creation - Admin**
+
+*Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
+
+**Steps:**
+1. Ensure you are logged in as an Admin user.
+2. Navigate to the 'Blog creation page' via the admin only menu dropdown.
+3. Enter a title for the blog.
+4. Choose an image.
+5. Add content for the main body of the blog.
+6. Submit the blog.
+
+**Expected Outcome:**
+- Once the 'blog creation' menu link is clicked, you are redirected to the add_post page, which can be verified in the URL.
+- You are able to enter a title, content and upload an image.
+- Once the submit button is clicked, you are taken to the main blog page with the new blog displayed.
+- All content is being displayed correctly. 
+- If you hit cancel instead of submit blog, then you are taken back to the main blog page but your blog has not been published.
+
+**- I verify the expected outcomes all take place.**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
+<hr>
+
+**TEST Case 17: Navbar - User Logged in**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -387,9 +490,11 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 
 **- I verify the expected outcomes all take place.**
 
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
+
 <hr>
 
-**TEST Case 16: Navbar - User Not Logged in**
+**TEST Case 18: Navbar - User Not Logged in**
 
 *Starting url: https://pureproteinpowderpp5-6078f21bc874.herokuapp.com/*
 
@@ -409,6 +514,8 @@ I designed my website to be responsive, ensuring it functions well and looks gre
 - The navigation bar should function seamlessly across desktop, mobile, and tablet devices, adapting its layout to different screen sizes for optimal user experience.
 
 **- I verify the expected outcomes all take place.**
+
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/testing/)
 
 <hr>
 

@@ -1,5 +1,3 @@
-
-
 html {
     height: 100%;
     overflow-x: clip !important;
@@ -331,12 +329,6 @@ footer,
 /* -------------------------------- Media Queries */
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 400px) {
-    .navbar {
-        flex-wrap: nowrap;
-    }
-}
-
 @media (max-width: 575.98px) {
     #landing-logo {
         font-size: 2.5rem;

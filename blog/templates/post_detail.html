@@ -95,12 +95,12 @@
                 <div class="card-body">
                     {% if user.is_authenticated %}
 
-                    <h3>Leave a comment:</h3>
-                    <p>Posting as: {{ user.username }}</p>
+                    <h3 style="color: rgb(70, 255, 92);">Leave a comment:</h3>
+                    <p style="text-decoration: underline;">Posting as: {{ user.username }}</p>
                     <form method="POST" class="mt-1">
                         {{ comment_form | crispy }}
                         {% csrf_token %}
-                        <button type="submit" class="text-success btn" style="border: 1px solid rgb(70, 255, 92);">Submit</button>
+                        <button type="submit" class="btn btn-outline-black rounded-0">Submit</button>
                     </form>
                     {% endif %}
                 </div>

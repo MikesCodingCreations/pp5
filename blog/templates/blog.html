@@ -41,7 +41,7 @@
                                 {% if request.user.is_superuser %}
                                 <div class="super-user-button-container">
                                     <a href="{% url 'edit_post' post.id %}" class="btn btn-outline-black rounded-0">Edit post</a>
-                                    <a href="{% url 'delete_post' post.id %}" class="btn btn-outline-black rounded-0">Delete post</a>
+                                    <a href="{% url 'delete_post' post.id %}" class="btn btn-black rounded-0">Delete post</a>
                                 </div>
                                 {% endif %}
                             </div>

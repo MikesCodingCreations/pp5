@@ -139,6 +139,7 @@ def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
+    
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
@@ -163,9 +164,49 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
+    from django.core.mail import send_mail
+
+    subject = f"Order Confirmation - {order_number}"
+    message = f"""
+    Hi {order.first_name},
+
+    Thank you for your order! Your order number is {order_number}.
+
+    A summary of your order:
+    * Billing Information:
+        * Name: {order.first_name} {order.last_name}
+        * Email: {order.email}
+        * Phone: {order.phone_number}
+    * Shipping Information:
+        * Address: {order.street_address1} {order.street_address2}
+                    {order.town_or_city}, {order.county} {order.postcode}
+        * Country: {order.country}
+    * Ordered Items:
+        [List of ordered items with descriptions and prices]
+
+    Order Total: {order.total}
+
+    You can track your order status at [link to order tracking page (if applicable)].
+
+    Thanks again for your order!
+
+    Sincerely,
+
+    The [Your Shop Name] Team
+    """
+
+    send_mail(
+        subject,
+        message,
+        'pureproteinpowders@gmail.com',  # Replace with your email address
+        [order.email],
+        fail_silently=False,
+    )
+
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
+
 
     if 'bag' in request.session:
         del request.session['bag']

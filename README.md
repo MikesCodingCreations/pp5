@@ -146,7 +146,9 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 **Home Page - Mobile View:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/12.png)
+
 <hr>
+
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/13.png)
 
 **Product List:**
@@ -180,12 +182,15 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 **Shopping Bag:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/9.png)
+
 <hr>
+
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/10.png)
 
 **Wishlist:**
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/wireframes/11.png)
+
 </details>
 <hr>
 
@@ -213,7 +218,9 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 <summary> Below are two ERC Diagrams. One dipicting the Blog and Blog comments models & one for the Wishlist model.</summary>
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/blogERC.png)
+
 <hr>
+
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/wishlistERC.png)
 
 </details>
@@ -227,7 +234,6 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 <details>
 <summary>Agile details<summary>
 
-My user stories template
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
 
 Agile Project Board

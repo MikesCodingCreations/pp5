@@ -184,10 +184,6 @@ def checkout_success(request, order_number):
         {order.postcode}
         {order.country}
 
-    Ordered Items:
-        {order.items}
-        {order.lineitems.all}
-
     Order Total: {order.grand_total}
 
     Thanks again for your order!

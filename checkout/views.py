@@ -168,13 +168,13 @@ def checkout_success(request, order_number):
 
     subject = f"Order Confirmation - {order_number}"
     message = f"""
-    Hi {order.first_name},
+    Hi {order.full_name},
 
     Thank you for your order! Your order number is {order_number}.
 
     A summary of your order:
     * Billing Information:
-        * Name: {order.first_name} {order.last_name}
+        * Name: {order.full_name}
         * Email: {order.email}
         * Phone: {order.phone_number}
     * Shipping Information:
@@ -184,7 +184,7 @@ def checkout_success(request, order_number):
     * Ordered Items:
         [List of ordered items with descriptions and prices]
 
-    Order Total: {order.total}
+    Order Total: {order.grand_total}
 
     You can track your order status at [link to order tracking page (if applicable)].
 
@@ -198,9 +198,9 @@ def checkout_success(request, order_number):
     send_mail(
         subject,
         message,
-        'pureproteinpowders@gmail.com',  # Replace with your email address
+        'pureproteinpowders@gmail.com', 
         [order.email],
-        fail_silently=False,
+        fail_silently=True,
     )
 
     messages.success(request, f'Order successfully processed! \

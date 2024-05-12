@@ -184,6 +184,13 @@ def checkout_success(request, order_number):
         {order.postcode}
         {order.country}
 
+    Items ordered:
+    """
+
+    for line_item in order_lines:
+        message += f"\t- {line_item.product.name} x {line_item.quantity}\n"
+
+    message += f"""
     Order Total: {order.grand_total}
 
     Thanks again for your order!
@@ -208,6 +215,7 @@ def checkout_success(request, order_number):
 
     if 'bag' in request.session:
         del request.session['bag']
+
 
     template = 'checkout/checkout_success.html'
     context = {

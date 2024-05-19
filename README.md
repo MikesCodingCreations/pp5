@@ -198,30 +198,8 @@ Just like our design, the fonts on the PureProteinPowders website are chosen wit
 ## Entity Relationship Diagram
 <details>
 <summary>Entity Relationship Diagram</summary>
-  
-1. **Blog Model:**
 
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-
-2. **Blog comments:**
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-
-3. **Wishlist:**
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/)
-</details>
-<hr>
-
-## ERC Diagram's
-<details>
-<summary> Below are two ERC Diagrams. One dipicting the Blog and Blog comments models & one for the Wishlist model.</summary>
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/blogERC.png)
-
-<hr>
-
-![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erc/wishlistERC.png)
+![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/erd/myapp_models.png)
 
 </details>
 
@@ -232,7 +210,6 @@ To ensure a smooth deployment and easy scaling on Heroku, I opted for PostgreSQL
 
 ## Agile
 <details>
-<summary>Agile details<summary>
 
 ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/agile/agiletemplate.png)
 
@@ -473,7 +450,7 @@ I prioritised and tracked my user stories in a Gitpod project board. Here's the 
 
 - **Error Page:**
   
-  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/IMG.png)
+  ![image](https://github.com/MikesCodingCreations/pp5/blob/main/media/website/sitefeatures/errorpage.png)
 
 </details>
 <hr>
